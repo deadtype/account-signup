@@ -1,0 +1,16 @@
+input, select {
+	border: none;
+	padding: 0;
+	width: 100%;
+	border-radius: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	background: transparent;
+}
+
+input:active, input:focus, select:focus {
+	outline-style: none;
+}

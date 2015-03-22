@@ -1,0 +1,14 @@
+
+.ie9 input {
+	background-color: lightgray;
+	padding: 1em;
+}
+
+
+.ie9Placeholder {
+	display: none;
+}
+
+.ie9 .ie9Placeholder {
+	display: block;
+}

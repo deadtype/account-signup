@@ -1,0 +1,28 @@
+@media only screen and (min-width: 600px) {
+
+	.labelContainer {
+		width: 30%;
+		float: left;
+	}
+
+	.inputContainer {
+		margin-top: 0;
+		width: 70%;
+		float: left;
+	}
+
+	.labelContainer label {
+		font-weight: 300;
+		font-size: 1em;
+	}
+
+	.formSectionInner, .formSectionHeader .formSectionInner {
+		padding: 1.3em 1.5em 1.3em;
+	}
+
+
+	.error .errorInfo, .helpInfo {
+		margin-top: 2em;
+	}
+
+}

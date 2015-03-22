@@ -1,0 +1,34 @@
+.select-input {
+	position: relative;
+}
+
+.select-input::after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	right: 5px;
+	top: 50%;
+	margin-top: -2px;
+	display: block;
+	width: 20px;
+	height: 8px;
+	background: url("../img/select-arrow.png") no-repeat center center;
+	pointer-events: none;
+	background-size: cover;
+}
+
+.select-input select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	border: none;
+	padding-left: 0;
+	width: 100%;
+	border-radius: 0;
+	font-size: 1.5em;
+	font-weight: 600;
+	display: block;
+	position: relative;
+}
