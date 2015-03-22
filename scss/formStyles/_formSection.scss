@@ -19,21 +19,20 @@
 }
 
 .inputContainer {
-	margin-top: 2em;
+	margin-top: 2.2em;
 	position: relative;
 }
 
 .formSection label, .formSection .label {
 	font-weight: 700;
-}
-
-.formSection label, .formSection .label {
 	font-size: .8em;
+
 }
 
 .formSection input, .formSection select, .dollar::before  {
 	font-size: 1.5em;
 	font-weight: 600;
+  	color: rgb(180,180,180);
 }
 
 
