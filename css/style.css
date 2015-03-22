@@ -692,8 +692,8 @@ input:-ms-input-placeholder {
   top: 50%;
   margin-top: -2px;
   display: block;
-  width: 20px;
-  height: 8px;
+  width: 19px;
+  height: 9px;
   background: url("../img/select-arrow.png") no-repeat center center;
   pointer-events: none;
   background-size: cover;
@@ -814,6 +814,15 @@ input:-ms-input-placeholder {
 
   .formSection input, .formSection select, .dollar::before {
     font-size: 1.35em;
+  }
+
+  .select-input::after {
+    right: 5px;
+    top: 50%;
+    margin-top: 0;
+    display: block;
+    width: 24px;
+    height: 12px;
   }
 }
 .systemHeader {

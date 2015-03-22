@@ -40,5 +40,17 @@
 		font-size: 1.35em;
 	}
 
+	.select-input::after {
+	
+	right: 5px;
+	top: 50%;
+	margin-top: 0;
+	display: block;
+	width: 24px;
+	height: 12px;
+
+}
+
+
 
 }
