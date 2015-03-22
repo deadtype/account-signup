@@ -14,3 +14,15 @@ input, select {
 input:active, input:focus, select:focus {
 	outline-style: none;
 }
+
+input::-webkit-input-placeholder {
+color: rgb(180,180,180);
+}
+
+input::-moz-placeholder {
+    color: rgb(180,180,180);
+}
+
+input:-ms-input-placeholder {
+    color: rgb(180,180,180);
+}

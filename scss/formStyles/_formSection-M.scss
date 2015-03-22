@@ -3,6 +3,7 @@
 	.labelContainer {
 		width: 30%;
 		float: left;
+		margin-top: .2em;
 	}
 
 	.inputContainer {
@@ -24,5 +25,20 @@
 	.error .errorInfo, .helpInfo {
 		margin-top: 2em;
 	}
+
+	.formSection .label {
+		font-size: .75em;
+	}
+
+	.formSection label {
+		line-height: 1;
+		font-size: 1em;
+	}
+
+
+	.formSection input, .formSection select, .dollar::before  {
+		font-size: 1.3em;
+	}
+
 
 }

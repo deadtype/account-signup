@@ -19,21 +19,42 @@
 }
 
 .inputContainer {
-	margin-top: 1.8em;
+	margin-top: 2em;
+	position: relative;
 }
 
-.formSection label {
+.formSection label, .formSection .label {
 	font-weight: 700;
 }
 
 .formSection label, .formSection .label {
-	font-size: .85em;
+	font-size: .8em;
 }
 
-.formSection input, .formSection select {
+.formSection input, .formSection select, .dollar::before  {
 	font-size: 1.5em;
+	font-weight: 600;
+}
+
+
+.error .errorInfo, .helpInfo {
+	margin-top: .6em;
 }
 
 .helpInfo {
-	font-weight: 300;
+		color: rgb(170,170,170);
+}
+
+
+.dollar input {
+	padding-left: 1em;
+}
+
+.dollar::before {
+	pointer-events: none;
+	content: '$';
+	width: 13px;
+	font-weight: 800;
+	position: absolute;
+	color: rgb(180,180,180);
 }
