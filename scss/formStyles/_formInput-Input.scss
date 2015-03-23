@@ -22,7 +22,7 @@
 	width: 2em;
 }
 
-.MultiInputSeparator, .phoneBracket {
+.MultiInputSeparator, .phoneBracket, .postalCodeSpacer {
 	padding: 0 .4em;
 	font-weight: 900;
 	font-size: 1.2em;
@@ -32,7 +32,14 @@
 .phoneBracket {
 	padding: 0 .05em;;
 }
+.postalCodeSpacer {
+	padding: 0 .3em;
+}
 
 .phoneNumberField .MultiInputSeparator {
 	padding: 0 .2em;
+}
+
+.postalCodeField input {
+	width: .75em;
 }
