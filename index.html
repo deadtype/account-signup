@@ -190,14 +190,17 @@
 
                             <div class='inputContainer '>
                                 <div class='inputFieldContainer'>
-                                    <input type='tel' id='dateOfBirthField-year' placeholder='YYYY'/>
+                                    <input type='tel' id='dateOfBirthField-year' maxlength="4"  placeholder='YYYY'/>
                                     <span class='MultiInputSeparator'>/</span>
-                                    <input type='tel' id='dateOfBirthField-month' placeholder='MM'/>
+                                    <input type='tel' id='dateOfBirthField-month' maxlength="2" placeholder='MM'/>
                                     <span class='MultiInputSeparator'>/</span>
-                                    <input type='tel' id='dateOfBirthField-date' placeholder='DD'/>
+                                    <input type='tel' id='dateOfBirthField-date' maxlength="2"  placeholder='DD'/>
                                 </div>
                                 <div class='label ie9Placeholder'>
-                                     Enter Date of Birth
+                                   Please enter your Date of Birth in the YYYY / MM / DD numerical format
+                                </div>
+                                 <div class='label helpInfo'>
+                                   Please enter your Date of Birth in the YYYY / MM / DD numerical format
                                 </div>
                                 <div class='label errorInfo'>
                                     Date of Birth is required
@@ -244,12 +247,12 @@
                             <div class='inputContainer '>
                                 <div class='inputFieldContainer'>
                                     <span class='phoneBracket'>(</span>
-                                    <input type='tel' id='phoneNumberField-areaCode' placeholder='999'/>
+                                    <input type='tel' id='phoneNumberField-areaCode' maxlength="3" placeholder='###'/>
                                     <span class='phoneBracket'>)</span>
                                     <span class='MultiInputSeparator'>-</span>
-                                    <input type='tel' id='phoneNumberField-firstThree' placeholder='999'/>
+                                    <input type='tel' id='phoneNumberField-firstThree' maxlength="3" placeholder='###'/>
                                     <span class='MultiInputSeparator'>-</span>
-                                    <input type='tel' id='phoneNumberField-lastFour' placeholder='9999'/>
+                                    <input type='tel' id='phoneNumberField-lastFour' maxlength="4" placeholder='####'/>
                                 </div>
                                 <div class='label ie9Placeholder'>
                                      Enter Phone Number
@@ -366,6 +369,26 @@
 
                         </div>
                     </div>
+                    <div class='formSection postalCodeField '>
+                        <div class='formSectionInner clearfix'>
+                            <div class='labelContainer'>
+                                <label for='postalCodeField'>Postal Code</label>
+                            </div>
+
+                            <div class='inputContainer '>
+                                <div class='inputFieldContainer'>
+                                    <input type='text' id='postalCodeField' placeholder='Enter Postal Code'/>
+                                </div>
+                                <div class='label ie9Placeholder'>
+                                     Enter Postal Code
+                                 </div>
+                                <div class='label errorInfo'>
+                                    City is required
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class='contentSection PasswordSetUp'>

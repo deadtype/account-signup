@@ -2,12 +2,20 @@
 	display: inline-block;
 }
 
-.multiInput #dateOfBirthField-year, .multiInput #phoneNumberField-lastFour {
-	width: 2.75em;
+.multiInput input {
+	border-bottom: 2px solid lightgray;
+	text-align: center;
 }
 
+.multiInput #dateOfBirthField-year {
+	width: 2.6em;
+}
+
+.multiInput #phoneNumberField-lastFour {
+	width: 2.5em;
+}
 .multiInput #phoneNumberField-areaCode, .multiInput #phoneNumberField-firstThree {
-	width: 1.7em;
+	width: 1.9em;
 }
 
 .multiInput #dateOfBirthField-month, .multiInput #dateOfBirthField-date {
