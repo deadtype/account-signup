@@ -25,3 +25,7 @@
 	display: block;
 	position: relative;
 }
+
+select::-ms-expand{
+  display:none;
+}

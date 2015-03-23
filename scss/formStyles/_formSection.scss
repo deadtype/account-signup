@@ -31,7 +31,7 @@
 
 }
 
-.formSection input, .formSection select, .dollar::before  {
+.formSection input, .formSection select  {
 	font-size: 1.5em;
 	font-weight: 600;
   	color: rgb(180,180,180);
@@ -48,7 +48,7 @@
 
 
 .dollar input {
-	padding-left: 1em;
+	padding-left: .75em;
 }
 
 .dollar::before {
