@@ -591,6 +591,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (min-width: 600px) {
+  body {
+    font-size: .85em;
+  }
+
   .contentWrapper {
     width: 70%;
   }
@@ -608,6 +612,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (min-width: 1200px) {
+  body {
+    font-size: .9em;
+  }
+
   .content {
     width: 80%;
   }
@@ -621,6 +629,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (min-width: 1800px) {
+  body {
+    font-size: 1.2em;
+  }
+
   .content {
     width: 65%;
   }
@@ -1126,20 +1138,4 @@ select::-ms-expand {
   width: 100%;
   color: #333;
   font-size: .9em;
-}
-
-@media only screen and (min-width: 600px) {
-  body {
-    font-size: .85em;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  body {
-    font-size: .9em;
-  }
-}
-@media only screen and (min-width: 1800px) {
-  body {
-    font-size: 1.2em;
-  }
 }
