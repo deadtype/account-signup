@@ -906,7 +906,7 @@ input[type="radio"] + label::after {
 
 input[type="checkbox"] + label::before,
 input[type="checkbox"] + label::after {
-  border-radius: .25em;
+  border-radius: 2px;
 }
 
 input[type="radio"] + label::after,
