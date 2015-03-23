@@ -1,0 +1,18 @@
+.multiInput input, .multiInput span {
+	display: inline-block;
+}
+
+.multiInput #dateOfBirth-year {
+	width: 2.75em;
+}
+
+.multiInput #dateOfBirth-month, .multiInput #dateOfBirth-date {
+	width: 2em;
+}
+
+.inputDateSeparator {
+	padding: 0 .75em;
+	font-weight: 900;
+	font-size: 1.2em;
+	color: rgb(170,170,170);
+}

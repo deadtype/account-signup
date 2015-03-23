@@ -738,6 +738,25 @@ input:-ms-input-placeholder {
   color: #b4b4b4;
 }
 
+.multiInput input, .multiInput span {
+  display: inline-block;
+}
+
+.multiInput #dateOfBirth-year {
+  width: 2.75em;
+}
+
+.multiInput #dateOfBirth-month, .multiInput #dateOfBirth-date {
+  width: 2em;
+}
+
+.inputDateSeparator {
+  padding: 0 .75em;
+  font-weight: 900;
+  font-size: 1.2em;
+  color: #aaaaaa;
+}
+
 .select-input {
   position: relative;
 }
@@ -935,6 +954,10 @@ select::-ms-expand {
 
   .middleName .labelContainer {
     width: 11em;
+  }
+
+  .ie9 .middleName .labelContainer {
+    width: 14em;
   }
 
   .labelContainer {
