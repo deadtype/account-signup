@@ -2,15 +2,15 @@
 	display: inline-block;
 }
 
-.multiInput #dateOfBirth-year, .multiInput #phoneNumber-lastFour {
+.multiInput #dateOfBirthField-year, .multiInput #phoneNumberField-lastFour {
 	width: 2.75em;
 }
 
-.multiInput #phoneNumber-areaCode, .multiInput #phoneNumber-firstThree {
+.multiInput #phoneNumberField-areaCode, .multiInput #phoneNumberField-firstThree {
 	width: 1.7em;
 }
 
-.multiInput #dateOfBirth-month, .multiInput #dateOfBirth-date {
+.multiInput #dateOfBirthField-month, .multiInput #dateOfBirthField-date {
 	width: 2em;
 }
 
@@ -25,6 +25,6 @@
 	padding: 0 .05em;;
 }
 
-.phoneNumber .MultiInputSeparator {
+.phoneNumberField .MultiInputSeparator {
 	padding: 0 .2em;
 }

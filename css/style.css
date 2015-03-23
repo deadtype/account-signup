@@ -735,15 +735,15 @@ input:-ms-input-placeholder {
   display: inline-block;
 }
 
-.multiInput #dateOfBirth-year, .multiInput #phoneNumber-lastFour {
+.multiInput #dateOfBirthField-year, .multiInput #phoneNumberField-lastFour {
   width: 2.75em;
 }
 
-.multiInput #phoneNumber-areaCode, .multiInput #phoneNumber-firstThree {
+.multiInput #phoneNumberField-areaCode, .multiInput #phoneNumberField-firstThree {
   width: 1.7em;
 }
 
-.multiInput #dateOfBirth-month, .multiInput #dateOfBirth-date {
+.multiInput #dateOfBirthField-month, .multiInput #dateOfBirthField-date {
   width: 2em;
 }
 
@@ -758,7 +758,7 @@ input:-ms-input-placeholder {
   padding: 0 .05em;
 }
 
-.phoneNumber .MultiInputSeparator {
+.phoneNumberField .MultiInputSeparator {
   padding: 0 .2em;
 }
 
@@ -968,29 +968,47 @@ select::-ms-expand {
     display: flex;
   }
 
-  .firstName {
+  .firstNameField {
     -webkit-box-flex: 3;
     -webkit-flex: 3;
         -ms-flex: 3;
             flex: 3;
   }
 
-  .firstName.formSection {
-    border-right: none;
-  }
-
-  .middleName {
+  .middleNameField {
     -webkit-box-flex: 2;
     -webkit-flex: 2;
         -ms-flex: 2;
             flex: 2;
   }
 
-  .middleName .labelContainer {
+  .addressField {
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+  }
+
+  .addressUnitField {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+  }
+
+  .doubleFormSection .formSection:nth-child(1) {
+    border-right: none;
+  }
+
+  .middleNameField .labelContainer {
     width: 11em;
   }
 
-  .ie9 .middleName .labelContainer {
+  .addressUnitField .labelContainer {
+    width: 7em;
+  }
+
+  .ie9 .middleNameField .labelContainer {
     width: 14em;
   }
 

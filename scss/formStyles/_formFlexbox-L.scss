@@ -4,21 +4,35 @@
 		display: flex;
 	}
 
-	.firstName {
+	.firstNameField {
 		flex: 3;
 	}
-	.firstName.formSection {
-		border-right: none;
-	}
-	.middleName {
+	.middleNameField {
 		flex: 2;
 	}
 
-	.middleName .labelContainer {
+	.addressField {
+		flex: 4;
+	}
+	.addressUnitField {
+		flex: 2;
+	}
+
+	.doubleFormSection .formSection:nth-child(1) {
+		border-right: none;
+	}
+
+
+
+	.middleNameField .labelContainer {
 		width: 11em;
 	}
 
-		.ie9 .middleName .labelContainer {
+	.addressUnitField .labelContainer {
+		width: 7em;
+	}
+
+	.ie9 .middleNameField .labelContainer {
 		width: 14em;
 	}
 
