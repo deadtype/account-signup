@@ -628,7 +628,7 @@ input:-ms-input-placeholder {
 
 @media only screen and (min-width: 600px) {
   .contentWrapper {
-    width: 80%;
+    width: 70%;
   }
 
   .content {
@@ -789,6 +789,16 @@ select::-ms-expand {
   display: none;
 }
 
+@media only screen and (min-width: 1400px) {
+  .select-input::after {
+    right: 5px;
+    top: 50%;
+    margin-top: 0;
+    display: block;
+    width: 26px;
+    height: 12px;
+  }
+}
 .helper-input {
   margin-top: 1em;
   height: 0;
@@ -923,15 +933,6 @@ select::-ms-expand {
 
   .formSection input, .formSection select {
     font-size: 1.35em;
-  }
-
-  .select-input::after {
-    right: 5px;
-    top: 50%;
-    margin-top: 0;
-    display: block;
-    width: 24px;
-    height: 12px;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -1089,10 +1090,15 @@ select::-ms-expand {
 
 @media only screen and (min-width: 600px) {
   body {
-    font-size: 1em;
+    font-size: .85em;
   }
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: .9em;
+  }
+}
+@media only screen and (min-width: 1800px) {
   body {
     font-size: 1.2em;
   }
