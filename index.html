@@ -61,7 +61,7 @@
                         </div>
                     </header>
 
-                    <div class='formSection loanAmountField filled  error'>
+                    <div class='formSection loanAmountField' id='loanAmountInputSection'>
                             <div class='statusIndicator'>
                             </div>
                         <div class='formSectionInner  clearfix'>
@@ -88,7 +88,7 @@
 
                         </div>
                     </div>
-                    <div class='formSection loanPurposeField focus'>
+                    <div class='formSection loanPurposeField' id='loanPurposeInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -122,7 +122,7 @@
                         </div>
                     </header>
                     <div class='doubleFormSection'>
-                        <div class='formSection firstNameField'>
+                        <div class='formSection firstNameField' id='firstNameInputSection'>
                             <div class='formSectionInner clearfix'>
                                 <div class='labelContainer'>
                                     <label for='firstNameField'>First Name</label>
@@ -141,7 +141,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='formSection middleNameField '>
+                        <div class='formSection middleNameField ' id='middleNameInputSection'>
                              <div class='formSectionInner clearfix'>
 
                                 <div class='labelContainer'>
@@ -160,7 +160,7 @@
                         </div>
                     </div>
 
-                    <div class='formSection lastNameField'>
+                    <div class='formSection lastNameField' id='lastNameInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -181,7 +181,7 @@
                         </div>
                     </div>
 
-                    <div class='formSection dateOfBirthField multiInput'>
+                    <div class='formSection dateOfBirthField multiInput' id='dateOfBirthInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -209,7 +209,7 @@
                         </div>
                     </div>
 
-                    <div class='formSection maritalStatusField other'>
+                    <div class='formSection maritalStatusField other' id='maritalStatusInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -237,7 +237,7 @@
 
                         </div>
                     </div>
-                    <div class='formSection phoneNumberField multiInput'>
+                    <div class='formSection phoneNumberField multiInput' id='phoneNumberInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -263,7 +263,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class='formSection housingStatusField'>
+                    <div class='formSection housingStatusField' id='housingStatusInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -290,7 +290,7 @@
                         </div>
                     </div>
                     <div class='doubleFormSection'>
-                        <div class='formSection addressField '>
+                        <div class='formSection addressField ' id='addressInputSection'>
                             <div class='formSectionInner clearfix'>
                                 <div class='labelContainer'>
                                     <label for='addressField'>Address</label>
@@ -309,7 +309,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='formSection addressUnitField '>
+                        <div class='formSection addressUnitField ' id='addressUnitInputSection'>
                              <div class='formSectionInner clearfix'>
 
                                 <div class='labelContainer'>
@@ -327,7 +327,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class='formSection cityField '>
+                    <div class='formSection cityField ' id='cityInputSection'>
                         <div class='formSectionInner clearfix'>
                             <div class='labelContainer'>
                                 <label for='cityField'>City</label>
@@ -346,7 +346,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class='formSection provinceField'>
+                    <div class='formSection provinceField' id='provinceInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -369,7 +369,7 @@
 
                         </div>
                     </div>
-                    <div class='formSection postalCodeField multiInput'>
+                    <div class='formSection postalCodeField multiInput' id='postalCodeInputSection'>
                         <div class='formSectionInner clearfix'>
                             <div class='labelContainer'>
                                 <label for='postalCodeField-1'>Postal Code</label>
@@ -400,7 +400,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class='formSection employmentStatusField'>
+                    <div class='formSection employmentStatusField' id='employmentInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -426,7 +426,7 @@
 
                         </div>
                     </div>
-                    <div class='formSection employmentIncomeField'>
+                    <div class='formSection employmentIncomeField' id='employmentInputSection'>
                             <div class='statusIndicator'>
                             </div>
                         <div class='formSectionInner clearfix'>
@@ -455,7 +455,7 @@
 
                         </div>
                     </div>
-                    <div class='formSection socialInsuranceField multiInput'>
+                    <div class='formSection socialInsuranceField multiInput' id='socialInsuranceInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -495,7 +495,7 @@
                             </div>
                         </div>
                     </header>
-                    <div class='formSection emailField '>
+                    <div class='formSection emailField ' id='emailInputSection'>
                         <div class='formSectionInner clearfix'>
                             <div class='labelContainer'>
                                 <label for='emailField'>Enter Email</label>
@@ -541,12 +541,12 @@
 
                 <div class='contentSection Legal'>
                     <ul class="optionsSection">
-                        <li>
+                        <li id='authorizeAccessInputSection'>
                             <input type="checkbox" id="authorizeAccess">
                             <label for="authorizeAccess">I agree to allow Grouplend to access my credit report or score from a credit reporting agency</label>
                         </li>
 
-                        <li>
+                        <li id='termsOfUseInputSection'>
                             <input type="checkbox" id="termsOfUse">
                             <label for="termsOfUse">I agree to <a href=''>Terms of Use</a></label>
                         </li>
