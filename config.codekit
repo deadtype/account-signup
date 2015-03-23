@@ -221,6 +221,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/formStyles\/_formInput-TextArea.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/formStyles\/_formInput-TextArea.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_formInput-TextArea.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/formStyles\/_formLacksPlaceholder.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
