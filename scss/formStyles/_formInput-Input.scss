@@ -7,18 +7,18 @@
 	text-align: center;
 }
 
-.multiInput #dateOfBirthField-year {
+ #dateOfBirthField-year {
 	width: 2.6em;
 }
 
-.multiInput #phoneNumberField-lastFour {
+ #phoneNumberField-lastFour {
 	width: 2.5em;
 }
-.multiInput #phoneNumberField-areaCode, .multiInput #phoneNumberField-firstThree {
+ #phoneNumberField-areaCode,  #phoneNumberField-firstThree,  .socialInsuranceField input {
 	width: 1.9em;
 }
 
-.multiInput #dateOfBirthField-month, .multiInput #dateOfBirthField-date {
+ #dateOfBirthField-month,  #dateOfBirthField-date {
 	width: 2em;
 }
 
