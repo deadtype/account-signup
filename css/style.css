@@ -795,7 +795,7 @@ select::-ms-expand {
 }
 
 .text-area-input textarea {
-  min-height: 10em;
+  min-height: 100%;
   font-weight: 600;
   width: 100%;
   resize: none;
