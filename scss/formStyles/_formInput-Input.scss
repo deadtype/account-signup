@@ -2,17 +2,29 @@
 	display: inline-block;
 }
 
-.multiInput #dateOfBirth-year {
+.multiInput #dateOfBirth-year, .multiInput #phoneNumber-lastFour {
 	width: 2.75em;
+}
+
+.multiInput #phoneNumber-areaCode, .multiInput #phoneNumber-firstThree {
+	width: 1.7em;
 }
 
 .multiInput #dateOfBirth-month, .multiInput #dateOfBirth-date {
 	width: 2em;
 }
 
-.MultiInputSeparator {
-	padding: 0 .75em;
+.MultiInputSeparator, .phoneBracket {
+	padding: 0 .4em;
 	font-weight: 900;
 	font-size: 1.2em;
 	color: rgb(170,170,170);
+}
+
+.phoneBracket {
+	padding: 0 .05em;;
+}
+
+.phoneNumber .MultiInputSeparator {
+	padding: 0 .2em;
 }

@@ -704,7 +704,7 @@ input:-ms-input-placeholder {
   font-size: .8em;
 }
 
-.formSection input, .formSection select {
+.formSection input, .formSection select, .MultiInputSeparator, .phoneBracket {
   font-size: 1.5em;
   font-weight: 600;
   color: #b4b4b4;
@@ -735,19 +735,31 @@ input:-ms-input-placeholder {
   display: inline-block;
 }
 
-.multiInput #dateOfBirth-year {
+.multiInput #dateOfBirth-year, .multiInput #phoneNumber-lastFour {
   width: 2.75em;
+}
+
+.multiInput #phoneNumber-areaCode, .multiInput #phoneNumber-firstThree {
+  width: 1.7em;
 }
 
 .multiInput #dateOfBirth-month, .multiInput #dateOfBirth-date {
   width: 2em;
 }
 
-.MultiInputSeparator {
-  padding: 0 .75em;
+.MultiInputSeparator, .phoneBracket {
+  padding: 0 .4em;
   font-weight: 900;
   font-size: 1.2em;
   color: #aaaaaa;
+}
+
+.phoneBracket {
+  padding: 0 .05em;
+}
+
+.phoneNumber .MultiInputSeparator {
+  padding: 0 .2em;
 }
 
 .select-input {
@@ -914,7 +926,7 @@ select::-ms-expand {
     font-size: .95em;
   }
 
-  .formSection input, .formSection select {
+  .formSection input, .formSection select, .MultiInputSeparator, .phoneBracket {
     font-size: 1.35em;
   }
 }
