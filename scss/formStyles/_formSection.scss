@@ -2,6 +2,8 @@
 	border-top: 1px solid lightgray;
 	border-right: 1px solid lightgray;
 	border-bottom: 1px solid lightgray;
+	  	border-left: 1px solid lightgray;
+
 	z-index: 10;
 	position: relative;
 }
@@ -11,11 +13,11 @@
 }
 
 
+
 .formSectionInner {
 	padding: .6em .9em .9em;
   	-webkit-transition: all 0.7s;
   	transition: all 0.7s;
-  	border-left: 1px solid lightgray;
 }
 
 .inputContainer {

@@ -8,6 +8,11 @@
 @import '../scss/sitewide/headers';
 @import '../scss/sitewide/formCore';
 
+@import '../scss/siteProportions/proportions';
+@import '../scss/siteProportions/proportions-M';
+@import '../scss/siteProportions/proportions-L';
+@import '../scss/siteProportions/proportions-XL';
+
 
 @import '../scss/formStyles/formSectionHeader';
 @import '../scss/formStyles/formSection';
@@ -22,10 +27,12 @@
 
 @import '../scss/formStyles/formSection-M.scss';
 
+@import '../scss/formStyles/formFlexbox-M.scss';
+@import '../scss/formStyles/formFlexbox-L.scss';
+
 
 @import '../scss/systemHeader';
 @import '../scss/systemNavigation';
-@import '../scss/systemContent';
 
 @import '../scss/desktop';
 

@@ -1,0 +1,19 @@
+@media only screen and (min-width: 600px) {
+	.contentWrapper {
+    width: 80%;
+	}
+
+
+.content {
+		width: 75%;
+	}
+
+.systemContent {
+	margin:5em 0;
+}
+
+.contentSection + .contentSection {
+	margin-top: 5em;
+}
+
+}

@@ -1,0 +1,18 @@
+.contentWrapper {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.systemContent {
+	margin:4.5em 0;
+}
+
+.contentSection + .contentSection {
+	margin-top: 3em;
+}
+
+.questionSectionInner + .questionSectionInner {
+	margin-top: 2em;
+}

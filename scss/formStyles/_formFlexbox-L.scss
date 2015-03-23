@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1200px) {
+	
+	.doubleFormSection, .formSection {
+		display: flex;
+	}
+
+	.firstName {
+		flex: 3;
+	}
+	.firstName.formSection {
+		border-right: none;
+	}
+	.middleName {
+		flex: 2;
+	}
+
+	.labelContainer {
+		width: 14em;
+	}
+
+
+}
