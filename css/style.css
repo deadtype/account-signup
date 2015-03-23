@@ -537,13 +537,6 @@ body {
   font-size: .8em;
 }
 
-.contentWrapper {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 img {
   max-width: 100%;
 }
@@ -576,35 +569,6 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding-bottom: .3em;
   margin-bottom: .75em;
-}
-
-input, select, textarea {
-  border: none;
-  padding: 0;
-  width: 100%;
-  border-radius: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none;
-  background: transparent;
-}
-
-input:active, input:focus, select:focus, textarea:focus {
-  outline-style: none;
-}
-
-input::-webkit-input-placeholder {
-  color: #b4b4b4;
-}
-
-input::-moz-placeholder {
-  color: #b4b4b4;
-}
-
-input:-ms-input-placeholder {
-  color: #b4b4b4;
 }
 
 .contentWrapper {
@@ -665,6 +629,35 @@ input:-ms-input-placeholder {
     margin: 6.5em 0;
   }
 }
+input, select, textarea {
+  border: none;
+  padding: 0;
+  width: 100%;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+
+input:active, input:focus, select:focus, textarea:focus {
+  outline-style: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #b4b4b4;
+}
+
+input::-moz-placeholder {
+  color: #b4b4b4;
+}
+
+input:-ms-input-placeholder {
+  color: #b4b4b4;
+}
+
 .formSectionHeader {
   font-weight: 800;
   background: #FBFBFB;
@@ -789,26 +782,6 @@ select::-ms-expand {
   display: none;
 }
 
-@media only screen and (min-width: 1400px) {
-  .select-input::after {
-    right: 5px;
-    top: 50%;
-    margin-top: 0;
-    display: block;
-    width: 26px;
-    height: 12px;
-  }
-}
-.helper-input {
-  margin-top: 1em;
-  height: 0;
-  opacity: 0;
-  margin-top: 0;
-  -webkit-transition: all 0.7s;
-  transition: all 0.7s;
-  visibility: hidden;
-}
-
 .text-area-input textarea {
   min-height: 10em;
   font-weight: 600;
@@ -818,13 +791,6 @@ select::-ms-expand {
   padding: .7em 1em;
   background: whitesmoke;
   display: block;
-}
-
-.other .helper-input {
-  margin-top: 1em;
-  opacity: 1;
-  height: 9em;
-  visibility: visible;
 }
 
 .focus {
@@ -883,6 +849,23 @@ select::-ms-expand {
   color: #333;
 }
 
+.helper-input {
+  margin-top: 1em;
+  height: 0;
+  opacity: 0;
+  margin-top: 0;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  visibility: hidden;
+}
+
+.other .helper-input {
+  margin-top: 1em;
+  opacity: 1;
+  height: 9em;
+  visibility: visible;
+}
+
 .ie9 input {
   background-color: lightgray;
   padding: 1em;
@@ -933,6 +916,16 @@ select::-ms-expand {
 
   .formSection input, .formSection select {
     font-size: 1.35em;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .select-input::after {
+    right: 5px;
+    top: 50%;
+    margin-top: 0;
+    display: block;
+    width: 26px;
+    height: 12px;
   }
 }
 @media only screen and (min-width: 600px) {
