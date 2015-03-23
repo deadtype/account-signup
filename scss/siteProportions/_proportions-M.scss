@@ -4,23 +4,20 @@
 		font-size: .85em;
 	}
 
-
-
 	.contentWrapper {
-    width: 70%;
+    	width: 70%;
 	}
 
-
-.content {
+	.content {
 		width: 75%;
 	}
 
-.systemContent {
-	margin:5em 0;
-}
+	.systemContent {
+		margin: 5em 0;
+	}
 
-.contentSection + .contentSection {
-	margin-top: 5em;
-}
+	.contentSection + .contentSection {
+		margin-top: 5em;
+	}
 
 }

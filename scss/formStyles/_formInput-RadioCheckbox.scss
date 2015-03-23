@@ -1,16 +1,14 @@
-
-	.cd-form-list {
-		margin-top: 16px;
-		@include clearfix;
-	}
-
-	.cd-form-list li {
+	.optionsSection li {
 		/* wrapper for radio and checkbox input types */
 		display: inline-block;
 		position: relative;
-		@include user-select(none);
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 		margin: 0 26px 16px 0;
 		float: left;
+		width: 100%;
 	}
 
 	input[type=radio],
@@ -19,7 +17,9 @@
 		position: absolute;
 		left: 0;
 		top: 50%;
-		@include transform(translateY(-50%));
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);	
 		margin: 0;
 		padding: 0;
 		opacity: 0;
@@ -28,7 +28,7 @@
 
 	input[type="radio"] + label, 
 	input[type="checkbox"] + label {
-		padding-left: 24px;
+		padding-left: 3em;
 	}
 
 	input[type="radio"] + label::before,
@@ -42,8 +42,8 @@
 		left: 0;
 		top: 50%;
 		margin-top: -8px;
-		width: 16px;
-		height: 16px;
+		width: 20px;
+		height: 20px;
 	}
 
 	input[type="radio"] + label::before,
@@ -65,10 +65,10 @@
 
 	input[type="radio"] + label::after,
 	input[type="checkbox"] + label::after {
-		background-color: lightgreen;
+		background-color: #68b18f;
 		background-position: center center;
 		background-repeat: no-repeat;
-		box-shadow: 0 0 5px rgba(lightgreen, .4);
+		box-shadow: 0 0 5px rgba(#68b18f, .4);
 		display: none;
 	}
 
@@ -97,5 +97,40 @@
 	input[type="radio"]:checked + label::after,
 	input[type="checkbox"]:checked + label::before,
 	input[type="checkbox"]:checked + label::after {
-		@include animation(cd-bounce .3s);
+		-webkit-animation: cd-bounce 0.3s;
+		animation: cd-bounce 0.3s;
 	}
+
+
+@-webkit-keyframes cd-bounce {
+  0%, 100% {
+    -webkit-transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+  }
+}
+@-moz-keyframes cd-bounce {
+  0%, 100% {
+    -moz-transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(0.8);
+  }
+}
+@keyframes cd-bounce {
+  0%, 100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}

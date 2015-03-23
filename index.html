@@ -52,7 +52,7 @@
                     </header>
                 </div>
 
-                <div class='contentSection FinancialGoal'>
+                <div class='contentSection FinancialGoal '>
                     <header class='formSectionHeader'>
                         <div class='formSectionInner'>
                             <div class='title'>
@@ -61,10 +61,10 @@
                         </div>
                     </header>
 
-                    <div class='formSection loanAmountField'>
+                    <div class='formSection loanAmountField filled  error'>
                             <div class='statusIndicator'>
                             </div>
-                        <div class='formSectionInner clearfix'>
+                        <div class='formSectionInner  clearfix'>
 
                             <div class='labelContainer'>
                                 <label for='loanAmountField'>Amount Requested</label>
@@ -88,7 +88,7 @@
 
                         </div>
                     </div>
-                    <div class='formSection loanPurposeField'>
+                    <div class='formSection loanPurposeField focus'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -122,7 +122,7 @@
                         </div>
                     </header>
                     <div class='doubleFormSection'>
-                        <div class='formSection firstNameField '>
+                        <div class='formSection firstNameField'>
                             <div class='formSectionInner clearfix'>
                                 <div class='labelContainer'>
                                     <label for='firstNameField'>First Name</label>
@@ -209,7 +209,7 @@
                         </div>
                     </div>
 
-                    <div class='formSection maritalStatusField '>
+                    <div class='formSection maritalStatusField other'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -378,11 +378,17 @@
                             <div class='inputContainer '>
                                 <div class='inputFieldContainer'>
                                     <input type='text' id='postalCodeField-1' maxlength="1" placeholder='#'/>
+
                                     <input type='tel' id='postalCodeField-2' maxlength="1" placeholder='#'/>
+                                    
                                     <input type='text' id='postalCodeField-3' maxlength="1" placeholder='#'/>
+                                    
                                     <span class='postalCodeSpacer'>  </span>
+                                    
                                     <input type='tel' id='postalCodeField-4' maxlength="1" placeholder='#'/>
+                                    
                                     <input type='text' id='postalCodeField-5' maxlength="1" placeholder='#'/>
+                                    
                                     <input type='tel' id='postalCodeField-6' maxlength="1" placeholder='#'/>
                                 </div>
                                 <div class='label ie9Placeholder'>
@@ -508,7 +514,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class='formSection passwordField '>
+                    <div class='formSection passwordField' id='passwordInputSection'>
                         <div class='formSectionInner clearfix'>
                             <div class='labelContainer'>
                                 <label for='passwordField'>Create Password</label>
@@ -531,6 +537,20 @@
                         </div>
                     </div>
 
+                </div>
+
+                <div class='contentSection Legal'>
+                    <ul class="optionsSection">
+                        <li>
+                            <input type="checkbox" id="authorizeAccess">
+                            <label for="authorizeAccess">I agree to allow Grouplend to access my credit report or score from a credit reporting agency</label>
+                        </li>
+
+                        <li>
+                            <input type="checkbox" id="termsOfUse">
+                            <label for="termsOfUse">I agree to <a href=''>Terms of Use</a></label>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
