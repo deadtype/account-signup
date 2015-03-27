@@ -61,7 +61,7 @@
                         </div>
                     </header>
 
-                    <div class='formSection loanAmountField error ' id='loanAmountInputSection'>
+                    <div class='formSection loanAmountField' id='loanAmountInputSection'>
 
                         <div class='formSectionInner  clearfix'>
                                 <div class='labelContainer'>
@@ -142,11 +142,16 @@
                                     <div class='inputFieldContainer'>
                                         <input type='text' id='firstNameField' placeholder='Enter First Name'/>
                                     </div>
-                                    <div class='label ie9Placeholder'>
-                                         Enter First Name
-                                     </div>
-                                    <div class='label errorInfo'>
-                                        First Name is required
+
+                                    <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='firstNameField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Enter First Name
+                                                 </div>
+                                                <div class='helperLabel errorInfo'>
+                                                    First Name is required to proceed
+                                                </div>
+                                        </label>
                                     </div>
                                 </div>
                             </div>
@@ -162,9 +167,15 @@
                                     <div class='inputFieldContainer'>
                                         <input type='text' id='middleNameField' placeholder='If Applicable'/>
                                     </div>
-                                    <div class='label ie9Placeholder'>
-                                         Enter Middle Name if Applicable
-                                     </div>
+
+                                    <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='middleNameField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Enter Middle Name if Applicable
+                                                 </div>
+                                        </label>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -181,11 +192,16 @@
                                 <div class='inputFieldContainer'>
                                     <input type='text' id='lastNameField' placeholder='Enter Last Name'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                     Enter Last Name
-                                </div>
-                                <div class='label errorInfo'>
-                                    First Name is required
+
+                                <div class='helperContainer'>
+                                    <label class='helperLabelContainer' for='lastNameField'>
+                                            <div class='helperLabel ie9Placeholder'>
+                                                 Enter Last Name
+                                             </div>
+                                            <div class='helperLabel errorInfo'>
+                                                Last Name is required
+                                            </div>
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -206,20 +222,26 @@
                                     <span class='MultiInputSeparator'>/</span>
                                     <input type='tel' id='dateOfBirthField-date' maxlength="2"  placeholder='DD'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                   Please enter your Date of Birth in the YYYY / MM / DD numerical format
-                                </div>
-                                 <div class='label helpInfo'>
-                                   Please enter your Date of Birth in the YYYY / MM / DD numerical format
-                                </div>
-                                <div class='label errorInfo'>
-                                    Date of Birth is required
+
+                                <div class='helperContainer'>
+                                    <label class='helperLabelContainer' for='dateOfBirthField-year'>
+                                            <div class='helperLabel ie9Placeholder'>
+                                                Please enter your Date of Birth in the YYYY / MM / DD numerical format
+                                             </div>
+                                            <div class='helperLabel helpInfo'>
+                                                Please enter your Date of Birth in the YYYY / MM / DD numerical format
+
+                                            </div>
+                                            <div class='helperLabel errorInfo'>
+                                                Date of Birth is required
+                                            </div>
+                                    </label>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class='formSection maritalStatusField other' id='maritalStatusInputSection'>
+                    <div class='formSection maritalStatusField ' id='maritalStatusInputSection'>
                         <div class='formSectionInner clearfix'>
 
                             <div class='labelContainer'>
@@ -240,8 +262,15 @@
                                 <div class='inputFieldContainer helper-input text-area-input'>
                                     <textarea class='otherMartial-textarea' name='otherMartial-textarea' id='otherMartial-textarea' placeholder='Please Specify...'></textarea>
                                 </div>
-                                <div class='label errorInfo'>
-                                    Marital Status is required
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='maritalStatusField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Select Marital Status
+                                                 </div>
+                                                <div class='helperLabel errorInfo'>
+                                                    Marital Status is required
+                                                </div>
+                                        </label>
                                 </div>
                             </div>
 
@@ -264,12 +293,19 @@
                                     <span class='MultiInputSeparator'>-</span>
                                     <input type='tel' id='phoneNumberField-lastFour' maxlength="4" placeholder='####'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                     Enter Phone Number
+
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='loanAmountField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                        Enter Phone Number
+                                                 </div>
+
+                                                <div class='helperLabel errorInfo'>
+                                                        Phone Number is required
+                                                </div>
+                                        </label>
                                 </div>
-                                <div class='label errorInfo'>
-                                    Phone Number is required
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -292,8 +328,15 @@
                                 <div class='inputFieldContainer helper-input text-area-input'>
                                     <textarea class='otherHousing-textarea' name='otherHousing-textarea' id='otherHousing-textarea' placeholder='Please Specify...'></textarea>
                                 </div>
-                                <div class='label errorInfo'>
-                                    Housing Status is required
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='loanAmountField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Select Housing Status
+                                                 </div>
+                                                <div class='helperLabel errorInfo'>
+                                                     Housing Status is required
+                                                </div>
+                                        </label>
                                 </div>
                             </div>
 

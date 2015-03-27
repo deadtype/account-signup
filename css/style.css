@@ -739,7 +739,7 @@ input:-ms-input-placeholder {
 }
 
 .helperLabel {
-  padding-bottom: .3em;
+  padding-bottom: .95em;
 }
 
 .formSection input, .formSection select, .multiInput .inputFieldContainer {
@@ -748,10 +748,6 @@ input:-ms-input-placeholder {
 
 .multiInput input {
   padding: 0;
-}
-
-.formSection .text-area-input {
-  margin: 0rem .6rem .6rem .6rem;
 }
 
 .formSection input, .formSection select, .MultiInputSeparator, .phoneBracket {
@@ -800,6 +796,10 @@ input:-ms-input-placeholder {
 
 #dateOfBirthField-month, #dateOfBirthField-date {
   width: 2em;
+}
+
+.postalCodeField input {
+  text-transform: uppercase;
 }
 
 .MultiInputSeparator, .phoneBracket, .postalCodeSpacer {
@@ -1061,11 +1061,21 @@ input[type="checkbox"]:checked + label::after {
   visibility: hidden;
 }
 
+.helper-input .text-area-input {
+  margin: 0rem;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
 .other .helper-input {
   margin-top: 1em;
   opacity: 1;
   height: 9em;
   visibility: visible;
+}
+
+.other .helper-input {
+  margin: 0rem .6rem .6rem .6rem;
 }
 
 .ie9 input {

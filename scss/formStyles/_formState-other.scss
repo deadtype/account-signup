@@ -8,9 +8,22 @@
 	visibility: hidden;
 }
 
+.helper-input .text-area-input {
+	margin: 0rem;
+	 -webkit-transition: all 0.7s;
+  	transition: all 0.7s;
+
+}
+
 .other .helper-input {
+
 	margin-top: 1em;
 	opacity: 1;
 	height: 9em;
 	visibility: visible;
+}
+
+.other .helper-input {
+	margin: 0rem .6rem .6rem .6rem;
+
 }

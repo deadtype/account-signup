@@ -22,6 +22,10 @@
 	width: 2em;
 }
 
+.postalCodeField input {
+	text-transform: uppercase;
+}
+
 .MultiInputSeparator, .phoneBracket, .postalCodeSpacer {
 	padding: 0 .4em;
 	font-weight: 900;
