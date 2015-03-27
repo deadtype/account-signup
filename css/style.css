@@ -738,6 +738,10 @@ input:-ms-input-placeholder {
   padding-right: .8rem;
 }
 
+.helperLabel {
+  padding-bottom: .3em;
+}
+
 .formSection input, .formSection select, .multiInput .inputFieldContainer {
   padding: 1.2rem .8rem .8rem .8rem;
 }
@@ -1003,6 +1007,7 @@ input[type="checkbox"]:checked + label::after {
   height: 0;
   opacity: 0;
   margin-top: 0;
+  padding-bottom: 0;
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
   visibility: hidden;
@@ -1019,7 +1024,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .error .errorInfo {
-  margin-top: .5em;
+  padding-bottom: .95em;
 }
 
 .error.formSection {
@@ -1074,10 +1079,6 @@ input[type="checkbox"]:checked + label::after {
 
 .ie9 .ie9Placeholder {
   display: block;
-}
-
-.ie9 .ie9Placeholder + .helpInfo {
-  margin-top: .6em;
 }
 
 .ie9 .helperContainer {

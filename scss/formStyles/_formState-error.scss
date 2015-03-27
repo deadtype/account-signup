@@ -2,6 +2,7 @@
 	height: 0;
 	opacity: 0;
 	margin-top: 0;
+	padding-bottom: 0;
   	-webkit-transition: all 0.7s;
   	transition: all 0.7s;
 	visibility: hidden;
@@ -19,7 +20,7 @@
 }
 
 .error .errorInfo {
-	margin-top: .5em;
+	padding-bottom: .95em;
 }
 .error.formSection { 
 	//border: 1px solid red;
