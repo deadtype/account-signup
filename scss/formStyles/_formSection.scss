@@ -2,8 +2,7 @@
 	border-top: 1px solid lightgray;
 	border-right: 1px solid lightgray;
 	border-bottom: 1px solid lightgray;
-	  	border-left: 1px solid lightgray;
-
+	border-left: 1px solid lightgray;
 	z-index: 10;
 	position: relative;
 }
@@ -22,12 +21,13 @@
 	position: relative;
 }
 
+
 .formSection label {
 	font-weight: 700;
 	font-size: .8em;
 }
 
-.formSection label {
+.labelContainer label {
 	display: inline-block;
 	padding-top: .6rem;
 	padding-bottom: .8rem;
@@ -35,10 +35,14 @@
 	padding-right: .8rem;
 }
 
-label.helperLabelContainer {
+.helperContainer label {
 	display: block;
-	padding-top: 0;
-	padding-bottom: .8rem;
+	padding-left: .8rem;
+	padding-right: .8rem;
+}
+
+.helperLabel {
+	
 }
 
 .formSection input, .formSection select, .multiInput .inputFieldContainer {

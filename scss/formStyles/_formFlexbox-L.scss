@@ -54,8 +54,10 @@
 
 
 	.labelContainer {
-		width: 14em;
+		-webkit-box-flex: 15rem 0;
+	    -webkit-flex: 15rem 0;
+	        -ms-flex: 15rem 0;
+	            flex: 15rem 0;
 	}
-
 
 }

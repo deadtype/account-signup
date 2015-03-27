@@ -724,7 +724,7 @@ input:-ms-input-placeholder {
   font-size: .8em;
 }
 
-.formSection label {
+.labelContainer label {
   display: inline-block;
   padding-top: .6rem;
   padding-bottom: .8rem;
@@ -732,10 +732,10 @@ input:-ms-input-placeholder {
   padding-right: .8rem;
 }
 
-label.helperLabelContainer {
+.helperContainer label {
   display: block;
-  padding-top: 0;
-  padding-bottom: .8rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
 }
 
 .formSection input, .formSection select, .multiInput .inputFieldContainer {
@@ -1019,7 +1019,7 @@ input[type="checkbox"]:checked + label::after {
 }
 
 .error .errorInfo {
-  margin-top: .6em;
+  margin-top: .5em;
 }
 
 .error.formSection {
@@ -1085,17 +1085,6 @@ input[type="checkbox"]:checked + label::after {
 }
 
 @media only screen and (min-width: 600px) {
-  .labelContainer {
-    width: 30%;
-    float: left;
-  }
-
-  .inputContainer {
-    margin-top: 0;
-    width: 70%;
-    float: left;
-  }
-
   .labelContainer label {
     font-weight: 300;
     font-size: 1em;
@@ -1105,15 +1094,11 @@ input[type="checkbox"]:checked + label::after {
     padding: 1.4em 1.5em 1.1em;
   }
 
-  .error .errorInfo, .helpInfo {
-    margin-top: 2em;
-  }
-
-  .formSection .label {
+  .helperContainer label {
     font-size: .7em;
   }
 
-  .formSection label {
+  .labelContainer label {
     line-height: 4.25em;
     padding-left: 2em;
     font-size: .95em;
@@ -1157,7 +1142,10 @@ input[type="checkbox"]:checked + label::after {
 
 @media only screen and (min-width: 600px) {
   .labelContainer {
-    width: 10em;
+    -webkit-box-flex: 12rem 0;
+    -webkit-flex: 12rem 0;
+    -ms-flex: 12rem 0;
+    flex: 12rem 0;
   }
 
   .inputContainer {
@@ -1220,7 +1208,10 @@ input[type="checkbox"]:checked + label::after {
   }
 
   .labelContainer {
-    width: 14em;
+    -webkit-box-flex: 15rem 0;
+    -webkit-flex: 15rem 0;
+    -ms-flex: 15rem 0;
+    flex: 15rem 0;
   }
 }
 .systemHeader {

@@ -1,15 +1,6 @@
 @media only screen and (min-width: 600px) {
 
-	.labelContainer {
-		width: 30%;
-		float: left;
-	}
 
-	.inputContainer {
-		margin-top: 0;
-		width: 70%;
-		float: left;
-	}
 
 	.labelContainer label {
 		font-weight: 300;
@@ -20,21 +11,19 @@
 		padding: 1.4em 1.5em 1.1em;
 	}
 
-	.error .errorInfo, .helpInfo {
-		margin-top: 2em;
-	}
 
-	.formSection .label {
+	.helperContainer label {
 		font-size: .7em;
 	}
 
-	.formSection label {
 
+	.labelContainer label {	
 		line-height: 4.25em;
 		padding-left: 2em;
 		font-size: .95em;
-
 	}
+
+
 .formSection input {
 	height: 3em;
 }
