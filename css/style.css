@@ -651,7 +651,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 6.5em 0;
   }
 }
-input, select, textarea {
+input, select, textarea, label {
   border: none;
   padding: 0;
   width: 100%;
@@ -711,29 +711,49 @@ input:-ms-input-placeholder {
 }
 
 .formSectionInner {
-  padding: .6em .9em .9em;
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
 }
 
 .inputContainer {
-  margin-top: 2.2em;
   position: relative;
 }
 
-.formSection label, .formSection .label {
+.formSection label {
   font-weight: 700;
   font-size: .8em;
+}
+
+.formSection label {
+  display: inline-block;
+  padding-top: .6rem;
+  padding-bottom: .8rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+label.helperLabelContainer {
+  display: block;
+  padding-top: 0;
+  padding-bottom: .8rem;
+}
+
+.formSection input, .formSection select, .multiInput .inputFieldContainer {
+  padding: 1.2rem .8rem .8rem .8rem;
+}
+
+.multiInput input {
+  padding: 0;
+}
+
+.formSection .text-area-input {
+  margin: 0rem .6rem .6rem .6rem;
 }
 
 .formSection input, .formSection select, .MultiInputSeparator, .phoneBracket {
   font-size: 1.5em;
   font-weight: 600;
   color: #b4b4b4;
-}
-
-.error .errorInfo, .helpInfo {
-  margin-top: .6em;
 }
 
 .helpInfo {
@@ -809,9 +829,9 @@ input:-ms-input-placeholder {
   content: '';
   position: absolute;
   z-index: 1;
-  right: 5px;
+  right: 15px;
   top: 50%;
-  margin-top: -2px;
+  margin-top: 0px;
   display: block;
   width: 19px;
   height: 9px;
@@ -821,7 +841,6 @@ input:-ms-input-placeholder {
 }
 
 .select-input select {
-  padding-left: 0;
   width: 100%;
   border-radius: 0;
   font-weight: 600;
@@ -999,6 +1018,10 @@ input[type="checkbox"]:checked + label::after {
   visibility: visible;
 }
 
+.error .errorInfo {
+  margin-top: .6em;
+}
+
 .error.formSection {
   z-index: 20;
 }
@@ -1057,7 +1080,6 @@ input[type="checkbox"]:checked + label::after {
   .labelContainer {
     width: 30%;
     float: left;
-    margin-top: .2em;
   }
 
   .inputContainer {
@@ -1071,7 +1093,7 @@ input[type="checkbox"]:checked + label::after {
     font-size: 1em;
   }
 
-  .formSectionInner, .formSectionHeader .formSectionInner {
+  .formSectionHeader .formSectionInner {
     padding: 1.4em 1.5em 1.1em;
   }
 
@@ -1084,8 +1106,13 @@ input[type="checkbox"]:checked + label::after {
   }
 
   .formSection label {
-    line-height: 1;
+    line-height: 4.25em;
+    padding-left: 2em;
     font-size: .95em;
+  }
+
+  .formSection input {
+    height: 3em;
   }
 
   .formSection input, .formSection select, .MultiInputSeparator, .phoneBracket {
@@ -1102,15 +1129,25 @@ input[type="checkbox"]:checked + label::after {
     height: 14px;
   }
 }
-@media only screen and (min-width: 600px) {
-  .formSectionInner {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-  }
+.formSectionInner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
 
+.formSectionInner > * {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 100%;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+}
+
+@media only screen and (min-width: 600px) {
   .labelContainer {
     width: 10em;
   }

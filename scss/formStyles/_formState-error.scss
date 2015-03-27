@@ -18,6 +18,9 @@
 	visibility: visible;
 }
 
+.error .errorInfo {
+	margin-top: .6em;
+}
 .error.formSection { 
 	//border: 1px solid red;
 	z-index: 20;

@@ -13,23 +13,44 @@
 }
 
 
-
 .formSectionInner {
-	padding: .6em .9em .9em;
   	-webkit-transition: all 0.7s;
   	transition: all 0.7s;
 }
 
 .inputContainer {
-	margin-top: 2.2em;
 	position: relative;
 }
 
-.formSection label, .formSection .label {
+.formSection label {
 	font-weight: 700;
 	font-size: .8em;
-
 }
+
+.formSection label {
+	display: inline-block;
+	padding-top: .6rem;
+	padding-bottom: .8rem;
+	padding-left: .8rem;
+	padding-right: .8rem;
+}
+
+label.helperLabelContainer {
+	display: block;
+	padding-top: 0;
+	padding-bottom: .8rem;
+}
+
+.formSection input, .formSection select, .multiInput .inputFieldContainer {
+	padding: 1.2rem .8rem .8rem .8rem;
+}
+
+.multiInput input {padding: 0;}
+
+.formSection .text-area-input {
+	margin: 0rem .6rem .6rem .6rem;
+}
+
 
 .formSection input, .formSection select, .MultiInputSeparator, .phoneBracket  {
 	font-size: 1.5em;
@@ -37,10 +58,6 @@
   	color: rgb(180,180,180);
 }
 
-
-.error .errorInfo, .helpInfo {
-	margin-top: .6em;
-}
 
 .helpInfo {
 		color: rgb(170,170,170);

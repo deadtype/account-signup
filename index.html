@@ -61,30 +61,31 @@
                         </div>
                     </header>
 
-                    <div class='formSection loanAmountField' id='loanAmountInputSection'>
-                            <div class='statusIndicator'>
-                            </div>
+                    <div class='formSection loanAmountField error ' id='loanAmountInputSection'>
+
                         <div class='formSectionInner  clearfix'>
-
-                            <div class='labelContainer'>
-                                <label for='loanAmountField'>Amount Requested</label>
-                            </div>
-
-                            <div class='inputContainer '>
-                                <div class='inputFieldContainer dollar'>
-                                    <input type='tel' id='loanAmountField' placeholder='Enter Amount'/>
-                                </div>
-                                <div class='label ie9Placeholder'>
-                                     Enter Amount
-                                 </div>
-                                <div class='label helpInfo'>
-                                    Enter an amount between $1,000 and $30,000
-                                </div>
-                                <div class='label errorInfo'>
-                                    Loan Amount is required to proceed
+                                <div class='labelContainer'>
+                                    <label for='loanAmountField'>Amount Requested</label>
                                 </div>
 
-                            </div>
+                                <div class='inputContainer '>
+                                    <div class='inputFieldContainer dollar'>
+                                        <input type='tel' id='loanAmountField' placeholder='Enter Amount'/>
+                                    </div>
+                                </div>
+                                <div class='helperContainer'>
+                                    <label class='helperLabelContainer' for='loanAmountField'>
+                                            <div class='helperLabel ie9Placeholder'>
+                                                 Enter Amount
+                                             </div>
+                                            <div class='helperLabel helpInfo'>
+                                                Enter an amount between $1,000 and $30,000
+                                            </div>
+                                            <div class='helperLabel errorInfo'>
+                                                Loan Amount is required to proceed
+                                            </div>
+                                    </label>
+                                </div>
 
                         </div>
                     </div>
@@ -539,7 +540,7 @@
 
                 </div>
 
-                <div class='contentSection Legal'>
+                <div class='contentSection LegalOptIn'>
                     <ul class="optionsSection">
                         <li id='authorizeAccessInputSection'>
                             <input type="checkbox" id="authorizeAccess">
