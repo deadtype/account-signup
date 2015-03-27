@@ -1122,6 +1122,7 @@ input[type="checkbox"]:checked + label::after {
 
   .labelContainer label {
     line-height: 4.25em;
+    padding: 0;
     padding-left: 2em;
     font-size: .95em;
   }
@@ -1132,6 +1133,19 @@ input[type="checkbox"]:checked + label::after {
 
   .formSection input, .formSection select, .MultiInputSeparator, .phoneBracket {
     font-size: 1.35em;
+  }
+
+  .dollar::before {
+    padding-left: 0;
+  }
+
+  .helperContainer label {
+    padding-left: 12rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .helperContainer label {
+    padding-left: 18rem;
   }
 }
 @media only screen and (min-width: 1700px) {
@@ -1230,10 +1244,10 @@ input[type="checkbox"]:checked + label::after {
   }
 
   .labelContainer {
-    -webkit-box-flex: 15rem 0;
-    -webkit-flex: 15rem 0;
-    -ms-flex: 15rem 0;
-    flex: 15rem 0;
+    -webkit-box-flex: 18rem 0;
+    -webkit-flex: 18rem 0;
+    -ms-flex: 18rem 0;
+    flex: 18rem 0;
   }
 }
 .systemHeader {
