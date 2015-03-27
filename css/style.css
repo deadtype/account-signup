@@ -1176,8 +1176,18 @@ input[type="checkbox"]:checked + label::after {
   }
 }
 @media only screen and (min-width: 1700px) {
+  /* Equal Input Heigh */
+  .labelContainer label {
+    line-height: 5.5rem;
+  }
+
+  .inputContainer input, .multiInput .inputFieldContainer, .inputContainer select {
+    height: 5.5rem;
+  }
+}
+@media only screen and (min-width: 1700px) {
   .select-input::after {
-    right: 5px;
+    right: 30px;
     top: 50%;
     margin-top: 0;
     display: block;
@@ -1259,11 +1269,17 @@ input[type="checkbox"]:checked + label::after {
   }
 
   .middleNameField .labelContainer {
-    width: 11em;
+    -webkit-box-flex: 15rem 0;
+    -webkit-flex: 15rem 0;
+    -ms-flex: 15rem 0;
+    flex: 15rem 0;
   }
 
   .addressUnitField .labelContainer {
-    width: 7em;
+    -webkit-box-flex: 12rem 0;
+    -webkit-flex: 12rem 0;
+    -ms-flex: 12rem 0;
+    flex: 12rem 0;
   }
 
   .ie9 .middleNameField .labelContainer {

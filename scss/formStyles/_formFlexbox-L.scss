@@ -40,11 +40,16 @@
 
 
 	.middleNameField .labelContainer {
-		width: 11em;
-	}
+		-webkit-box-flex: 15rem 0;
+	    -webkit-flex: 15rem 0;
+	        -ms-flex: 15rem 0;
+	            flex: 15rem 0;	}
 
 	.addressUnitField .labelContainer {
-		width: 7em;
+				-webkit-box-flex: 12rem 0;
+	    -webkit-flex: 12rem 0;
+	        -ms-flex: 12rem 0;
+	            flex: 12rem 0;
 	}
 
 	.ie9 .middleNameField .labelContainer {

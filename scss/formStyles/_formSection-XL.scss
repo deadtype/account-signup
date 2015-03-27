@@ -1,0 +1,13 @@
+@media only screen and (min-width: 1700px) {
+
+	/* Equal Input Heigh */
+
+
+	.labelContainer label {	
+		line-height: 5.5rem;
+
+	}
+	.inputContainer input, .multiInput .inputFieldContainer, .inputContainer select {
+		height: 5.5rem;
+	}
+}
