@@ -61,7 +61,7 @@
                         </div>
                     </header>
 
-                    <div class='formSection loanAmountField' id='loanAmountInputSection'>
+                    <div class='formSection loanAmountField filled' id='loanAmountInputSection'>
 
                         <div class='formSectionInner  clearfix'>
                                 <div class='labelContainer'>
@@ -295,7 +295,7 @@
                                 </div>
 
                                 <div class='helperContainer'>
-                                        <label class='helperLabelContainer' for='loanAmountField'>
+                                        <label class='helperLabelContainer' for='phoneNumberField-areaCode'>
                                                 <div class='helperLabel ie9Placeholder'>
                                                         Enter Phone Number
                                                  </div>
@@ -329,7 +329,7 @@
                                     <textarea class='otherHousing-textarea' name='otherHousing-textarea' id='otherHousing-textarea' placeholder='Please Specify...'></textarea>
                                 </div>
                                 <div class='helperContainer'>
-                                        <label class='helperLabelContainer' for='loanAmountField'>
+                                        <label class='helperLabelContainer' for='housingStatusField'>
                                                 <div class='helperLabel ie9Placeholder'>
                                                      Select Housing Status
                                                  </div>
@@ -342,7 +342,7 @@
 
                         </div>
                     </div>
-                    <div class='doubleFormSection'>
+                    <div class='doubleFormSection '>
                         <div class='formSection addressField ' id='addressInputSection'>
                             <div class='formSectionInner clearfix'>
                                 <div class='labelContainer'>
@@ -353,11 +353,16 @@
                                     <div class='inputFieldContainer'>
                                         <input type='text' id='addressField' placeholder='Enter Street'/>
                                     </div>
-                                    <div class='label ie9Placeholder'>
-                                         Enter Street
-                                     </div>
-                                    <div class='label errorInfo'>
-                                        Address is required
+
+                                    <div class='helperContainer'>
+                                            <label class='helperLabelContainer' for='addressField'>
+                                                    <div class='helperLabel ie9Placeholder'>
+                                                         Enter Address
+                                                     </div>
+                                                    <div class='helperLabel errorInfo'>
+                                                        Address is required
+                                                    </div>
+                                            </label>
                                     </div>
                                 </div>
                             </div>
@@ -373,9 +378,13 @@
                                     <div class='inputFieldContainer'>
                                         <input type='text' id='addressUnitField' placeholder='If Applicable'/>
                                     </div>
-                                    <div class='label ie9Placeholder'>
-                                         Enter Unit if Applicable
-                                     </div>
+                                    <div class='helperContainer'>
+                                            <label class='helperLabelContainer' for='addressUnitField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                    Enter Unit if Applicable
+                                                 </div>
+                                            </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -390,11 +399,17 @@
                                 <div class='inputFieldContainer'>
                                     <input type='text' id='cityField' placeholder='Enter City'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                     Enter City
-                                 </div>
-                                <div class='label errorInfo'>
-                                    City is required
+
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='cityField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Enter City
+                                                 </div>
+
+                                                <div class='helperLabel errorInfo'>
+                                                    City is required
+                                                </div>
+                                        </label>
                                 </div>
                             </div>
                         </div>
@@ -415,8 +430,15 @@
                                         <option value='3'>Ontario</option>
                                     </select>
                                 </div>
-                                <div class='label errorInfo'>
-                                    Province is required
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='provinceField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Select Province
+                                                 </div>
+                                                <div class='helperLabel errorInfo'>
+                                                    Province is required
+                                                </div>
+                                        </label>
                                 </div>
                             </div>
 
@@ -444,11 +466,16 @@
                                     
                                     <input type='tel' id='postalCodeField-6' maxlength="1" placeholder='#'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                     Enter Postal Code
-                                 </div>
-                                <div class='label errorInfo'>
-                                    City is required
+
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='postalCodeField-1'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Enter Postal Code
+                                                 </div>
+                                                <div class='helperLabel errorInfo'>
+                                                    Postal Code is required
+                                                </div>
+                                        </label>
                                 </div>
                             </div>
                         </div>
@@ -472,8 +499,13 @@
                                 <div class='inputFieldContainer helper-input text-area-input'>
                                     <textarea class='employmentStatus-textarea' name='employmentStatus-textarea' id='employmentStatus-textarea' placeholder='Please Specify...'></textarea>
                                 </div>
-                                <div class='label errorInfo'>
-                                    Employment Status is required
+
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='employmentStatusField'>
+                                                <div class='helperLabel errorInfo'>
+                                                    Employment Status is required
+                                                </div>
+                                        </label>
                                 </div>
                             </div>
 
@@ -492,22 +524,25 @@
                                 <div class='inputFieldContainer dollar'>
                                     <input type='tel' id='employmentIncomeField' placeholder='Enter Amount'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                     Enter Your Yearly Income
-                                 </div>
 
-                                <div class='label helpInfo'>
-                                    Please enter your Yearly Income Amount
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='employmentIncomeField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Enter Your Yearly Income
+                                                 </div>
+                                                <div class='helperLabel helpInfo'>
+                                                    Please enter your Yearly Employment Income Amount
+                                                </div>
+                                                <div class='helperLabel errorInfo'>
+                                                    Employment Income Amount is required to proceed
+                                                </div>
+                                        </label>
                                 </div>
-
-                                <div class='label errorInfo'>
-                                    Employment Income Amount is required to proceed
-                                </div>
-
                             </div>
 
                         </div>
                     </div>
+
                     <div class='formSection socialInsuranceField multiInput' id='socialInsuranceInputSection'>
                         <div class='formSectionInner clearfix'>
 
@@ -523,16 +558,19 @@
                                     <span class='MultiInputSeparator'>-</span>
                                     <input type='tel' id='socialInsuranceField-lastThree' maxlength="3" placeholder='###'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                     Enter Social Insurance Number
-                                </div>
 
-                                 <div class='label helpInfo'>
-                                    Social Insurance Number is not required. However providing will increase the likelyhood of us correcly verifying your information.
-                                </div>
-
-                                <div class='label errorInfo'>
-                                    Please provide Social Insurance Number
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='socialInsuranceField-firstThree'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Enter Social Insurance Number
+                                                 </div>
+                                                <div class='helperLabel helpInfo'>
+                                                     Social Insurance Number is not required. However providing will increase the likelyhood of us correcly verifying your information.
+                                                </div>
+                                                <div class='helperLabel errorInfo'>
+                                                    Please provide Social Insurance Number
+                                                </div>
+                                        </label>
                                 </div>
                             </div>
                         </div>
@@ -558,12 +596,19 @@
                                 <div class='inputFieldContainer'>
                                     <input type='email' id='emailField' placeholder='Enter Email'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                     Enter Your Email
-                                 </div>
-                                <div class='label errorInfo'>
-                                    Email is required
+
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='emailField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                     Enter Your Email
+                                                 </div>
+
+                                                <div class='helperLabel errorInfo'>
+                                                    Email is required
+                                                </div>
+                                        </label>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -577,15 +622,23 @@
                                 <div class='inputFieldContainer'>
                                     <input type='password' id='passwordField' placeholder='Create Unique Password'/>
                                 </div>
-                                <div class='label ie9Placeholder'>
-                                     Create Unique Password
-                                 </div>
-                                 <div class='label helpInfo'>
-                                    Password must be 8 characters or more and include at least one number.
+
+
+                                <div class='helperContainer'>
+                                        <label class='helperLabelContainer' for='loanAmountField'>
+                                                <div class='helperLabel ie9Placeholder'>
+                                                    Create Unique Password
+                                                 </div>
+                                                <div class='helperLabel helpInfo'>
+                                                    Password must be 8 characters or more and include at least one number.
+                                                </div>
+                                                <div class='helperLabel errorInfo'>
+                                                    Password is required
+                                                </div>
+                                        </label>
                                 </div>
-                                <div class='label errorInfo'>
-                                    Password is required
-                                </div>
+
+
                             </div>
                         </div>
                     </div>
