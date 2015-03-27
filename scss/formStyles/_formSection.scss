@@ -45,13 +45,13 @@
 	padding-bottom: .95em;
 }
 
-.formSection input, .formSection select, .multiInput .inputFieldContainer {
+.inputContainer input, .inputContainer select, .multiInput .inputFieldContainer {
 	padding: 1.2rem .8rem .8rem .8rem;
 }
 
 .multiInput input {padding: 0;}
 
-.formSection input, .formSection select, .MultiInputSeparator, .phoneBracket  {
+.inputContainer input, .inputContainer select, .MultiInputSeparator, .phoneBracket  {
 	font-size: 1.5em;
 	font-weight: 600;
   	color: rgb(180,180,180);
@@ -67,7 +67,7 @@
 	position: relative;
 }
 
-.dollar input {
+.inputFieldContainer.dollar input {
 	padding-left: 1.3em;
 }
 
