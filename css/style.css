@@ -1014,7 +1014,7 @@ input[type="checkbox"]:checked + label::after {
 
 .error .errorInfo, .ie9 .ie9Placeholder {
   opacity: 1;
-  height: 1em;
+  height: auto;
   visibility: visible;
 }
 
@@ -1074,6 +1074,14 @@ input[type="checkbox"]:checked + label::after {
 
 .ie9 .ie9Placeholder {
   display: block;
+}
+
+.ie9 .ie9Placeholder + .helpInfo {
+  margin-top: .6em;
+}
+
+.ie9 .helperContainer {
+  margin-top: .75em;
 }
 
 @media only screen and (min-width: 600px) {

@@ -11,3 +11,11 @@
 .ie9 .ie9Placeholder {
 	display: block;
 }
+
+.ie9 .ie9Placeholder + .helpInfo {
+	margin-top: .6em;
+}
+
+.ie9 .helperContainer {
+	margin-top: .75em;
+}
