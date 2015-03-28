@@ -829,7 +829,7 @@ input:-ms-input-placeholder {
 }
 
 .postalCodeSpacer {
-  padding: 0 .3em;
+  padding: 0 .5em;
 }
 
 .phoneNumberField .MultiInputSeparator {
@@ -838,6 +838,16 @@ input:-ms-input-placeholder {
 
 .postalCodeField input {
   width: 1.1em;
+}
+
+.postalCodeField input + input {
+  margin-left: .2em;
+}
+
+.assistiveWrapperLabel {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
 .select-input {
