@@ -1,12 +1,40 @@
 .focus {
-	box-shadow: 0px 0px 12px 2px hsl(0,0%,93%);
+	box-shadow: 0px 0px 12px 2px #ededed;
 	z-index: 20;
 }
 
-.focus .formSection { 
-	border: 1px solid hsl(152, 32%, 55%);
+.focus.formSection { 
+	background: hsl(152, 32%, 98%);
 }
 
 .focus .formSectionInner {
 	border-left: 5px solid hsl(152, 32%, 55%);
+}
+
+
+select, .dollar::before,  .MultiInputSeparator, .phoneBracket {
+	  	 -webkit-transition: color 0.3s;
+  			transition: color 0.3s;
+}
+
+.focus select, .focus .dollar::before,  .focus .MultiInputSeparator, .focus .phoneBracket {
+	color: #444!important;
+}
+
+.focus input::-webkit-input-placeholder {
+color:  #e6e6e6;
+}
+
+.focus input::-moz-placeholder {
+    color:  #e6e6e6;
+}
+
+.focus input:-ms-input-placeholder {
+    color:  #e6e6e6;
+}
+
+
+.other.focus .text-area-input  textarea {
+	background: hsl(152, 32%, 100%);
+	border: 1px solid #ededed;
 }

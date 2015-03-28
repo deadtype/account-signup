@@ -54,9 +54,12 @@
 .inputContainer input, .inputContainer select, .MultiInputSeparator, .phoneBracket  {
 	font-size: 1.5em;
 	font-weight: 600;
-  	color: rgb(180,180,180);
+
 }
 
+.inputContainer select, .MultiInputSeparator, .phoneBracket  {
+  	color: rgb(180,180,180);
+}
 
 .helpInfo {
 		color: rgb(170,170,170);
@@ -79,6 +82,12 @@
 	padding-left: .8rem;
 	position: absolute;
 	color: rgb(180,180,180);
-	@include center(y);
+	  position: absolute;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
 }
 

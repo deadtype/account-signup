@@ -1,0 +1,7 @@
+@media only screen and (min-width: 600px) {
+  .formSection {
+    -webkit-transition: box-shadow 0.1s;
+    transition: box-shadow 0.1s; }
+
+  .formSection:hover {
+    box-shadow: 0px 0px 5px 2px #ededed; } }

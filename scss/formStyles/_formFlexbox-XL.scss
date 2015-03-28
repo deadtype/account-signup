@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1700px) {
+	.labelContainer {
+		-webkit-box-flex: 18rem 0;
+	    -webkit-flex: 18rem 0;
+	        -ms-flex: 18rem 0;
+	            flex: 18rem 0;
+	}
+
+		.middleNameField .labelContainer {
+		-webkit-box-flex: 13rem 0;
+	    -webkit-flex: 13rem 0;
+	        -ms-flex: 13rem 0;
+	            flex: 13rem 0;	}
+
+	.addressUnitField .labelContainer {
+				-webkit-box-flex: 10rem 0;
+	    -webkit-flex: 10rem 0;
+	        -ms-flex: 10rem 0;
+	            flex: 10rem 0;
+	}
+
+}

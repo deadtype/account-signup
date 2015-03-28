@@ -9,6 +9,7 @@ input, select, textarea, label {
 	-o-appearance: none;
 	appearance: none;
 	background: transparent;
+	color: #333;
 }
 
 input:active, input:focus, select:focus, textarea:focus {
@@ -16,13 +17,13 @@ input:active, input:focus, select:focus, textarea:focus {
 }
 
 input::-webkit-input-placeholder {
-color: rgb(180,180,180);
+color: rgb(230,230,230);
 }
 
 input::-moz-placeholder {
-    color: rgb(180,180,180);
+    color: rgb(230,230,230);
 }
 
 input:-ms-input-placeholder {
-    color: rgb(180,180,180);
+    color: rgb(230,230,230);
 }

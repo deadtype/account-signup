@@ -1,7 +1,6 @@
 @media only screen and (min-width: 600px) {
 
 
-
 	.labelContainer label {
 		font-weight: 300;
 		font-size: 1em;
@@ -44,7 +43,10 @@
 	    display: -webkit-flex;
 	    display: -ms-flexbox;
 	    display: flex;
-    	align-items: center;
+    	-webkit-box-align: center;
+-webkit-align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
 
 	}
 	.multiInput .inputFieldContainer input {

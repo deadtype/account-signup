@@ -12,9 +12,12 @@
 	display: block;
 	width: 19px;
 	height: 9px;
-	background: url("../img/select-arrow.svg") no-repeat center center;
+	background: url("../img/select-arrow-black.svg") no-repeat center center;
 	pointer-events: none;
 	background-size: cover;
+			 -webkit-transition: opacity 0.3s;
+  			transition: opacity 0.3s;
+  			opacity: .5;
 }
 
 .select-input select {
@@ -23,6 +26,8 @@
 	font-weight: 600;
 	display: block;
 	position: relative;
+	 -webkit-transition: color 0.3s;
+  			transition: color 0.3s;
 }
 
 select::-ms-expand {
