@@ -527,19 +527,12 @@ html {
   box-sizing: inherit;
 }
 
-body, input, textarea, select {
+body, input, textarea, select, button, .button {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
   color: #333;
-}
-
-body {
-  /* ignore these this will change for our app */
-  margin-left: auto;
-  margin-right: auto;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 img {
@@ -549,6 +542,26 @@ img {
 menu, ul, ol {
   margin: 0;
   padding: 0;
+}
+
+.content a {
+  color: dimgray;
+  text-decoration: none;
+  padding-bottom: .1em;
+  border-bottom: 2px solid lightgray;
+}
+
+a:hover {
+  color: #333;
+}
+
+.systemHeader a {
+  text-decoration: none;
+  color: dimgray;
+  font-size: .9em;
+  font-weight: 600;
+  padding-bottom: .2em;
+  border-bottom: 2px solid lightgray;
 }
 
 /**
@@ -575,82 +588,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .major {
-  /*border-bottom: 5px solid #333;*/
+  border-bottom: 5px solid #333;
   display: inline-block;
   padding-bottom: .3em;
-  margin-bottom: .75em;
+  margin-bottom: 1.5em;
 }
 
-.contentWrapper {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.systemContent {
-  margin: 4.5em 0;
-}
-
-.contentSection + .contentSection {
-  margin-top: 3em;
-}
-
-.questionSectionInner + .questionSectionInner {
-  margin-top: 2em;
-}
-
-@media only screen and (min-width: 600px) {
-  body {
-    font-size: .85em;
-  }
-
-  .contentWrapper {
-    width: 70%;
-  }
-
-  .content {
-    width: 75%;
-  }
-
-  .systemContent {
-    margin: 5em 0;
-  }
-
-  .contentSection + .contentSection {
-    margin-top: 5em;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  body {
-    font-size: .95em;
-  }
-
-  .content {
-    width: 80%;
-  }
-
-  .systemContent {
-    margin: 6em 0;
-  }
-
-  .contentSection + .contentSection {
-    margin-top: 7em;
-  }
-}
-@media only screen and (min-width: 1700px) {
-  body {
-    font-size: 1.2em;
-  }
-
-  .content {
-    width: 65%;
-  }
-
-  .systemContent {
-    margin: 6.5em 0;
-  }
-}
 input, select, textarea, label {
   border: none;
   padding: 0;
@@ -795,6 +738,7 @@ input:-ms-input-placeholder {
 .multiInput input {
   border-bottom: 2px solid lightgray;
   text-align: center;
+  z-index: 10;
 }
 
 #dateOfBirthField-year {
@@ -848,6 +792,8 @@ input:-ms-input-placeholder {
   position: absolute;
   height: 100%;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .select-input {
@@ -1089,6 +1035,30 @@ select, .dollar::before, .MultiInputSeparator, .phoneBracket {
 
 .error .formSectionInner {
   border-left: 5px solid red;
+}
+
+.errorSummary {
+  margin-top: 2em;
+  font-size: .9em;
+  color: red;
+}
+
+.errorSummary a {
+  color: red;
+  text-decoration: none;
+  border-bottom: 2px solid red;
+  padding-bottom: .1em;
+}
+
+.errorSummary ul {
+  margin: 1em;
+}
+
+.errorSummary li {
+  margin: 1em;
+  padding-left: 1em;
+  font-size: .85em;
+  list-style-type: dash;
 }
 
 .filled input, .filled select, .filled .dollar::before, .filled textarea {
@@ -1335,7 +1305,7 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
     flex: 2;
   }
 
-  .doubleFormSection .formSection:nth-child\(1\) {
+  .doubleFormSection .formSection:nth-child(1) {
     border-right: none;
   }
 
@@ -1418,10 +1388,146 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
   position: relative;
 }
 
+.systemNavigation .contentWrapper {
+  position: relative;
+  height: 100%;
+}
+
+.systemNavigationInner {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.NavigationExtraContent {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  text-align: left;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.scrollContainer {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrollContainerInnner {
+  width: 2400px;
+  padding: 0 7.5%;
+}
+
+@media only screen and (min-width: 600px) {
+  .NavigationExtraContent {
+    top: initial;
+    bottom: .25em;
+    left: initial;
+    right: 0;
+    text-align: right;
+    font-size: 2em;
+    font-weight: 700;
+  }
+}
+button, .button, .pageControls.sign-in input {
+  background: white;
+  border-radius: none;
+  line-height: 1.4;
+  position: relative;
+  border: none;
+  color: #979797;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+}
+
+.pageControls.sign-in input {
+  color: white;
+  background: transparent;
+}
+
+.buttonInnerText {
+  width: 100%;
+  font-size: .9em;
+}
+
+.buttonCentered .buttonInnerText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.buttonEmphasis {
+  background: #4edfa5;
+}
+
+.buttonError {
+  background: red;
+}
+
+.buttonNoEmphasis {
+  background: #e6e6e6;
+}
+
+.buttonDisabled {
+  opacity: .5;
+}
+
+button + button {
+  margin-top: .5em;
+}
+
+.pageControls button, .pageControls .button {
+  color: white;
+  height: 5em;
+}
+
+.pageControls.sign-in .button {
+  width: 100%;
+}
+
+.pageControls.sign-in input {
+  color: white;
+}
+
+.pageControls .button .buttonInnerText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: auto;
+}
+
+.pageControls .buttonInnerText {
+  font-size: 1.1em;
+}
+
+.lowLevelButton button {
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid BASE_BUTTON_COLOR;
+  background: white;
+  font-weight: 500;
+  font-size: 0.75em;
+  padding-bottom: .5em 1em;
+}
+
 .tabControls {
   position: absolute;
   bottom: -3px;
   z-index: 1000;
+  max-width: 100%;
 }
 
 .tab {
@@ -1430,9 +1536,10 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
   padding: .75em 1.7em;
   z-index: 1000;
   position: relative;
-  font-weight: 700;
+  font-weight: 500;
   color: #D8D8D8;
-  font-size: .95em;
+  font-size: .9em;
+  background: white;
 }
 
 .tabBorder {
@@ -1445,13 +1552,13 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
   z-index: 3000;
 }
 
-.tab.active {
+.tabActive {
   border: 3px solid #D8D8D8;
   z-index: 2000;
-  color: #979797;
+  color: #111;
 }
 
-.tab.active .tabBorder {
+.tabActive .tabBorder {
   background: white;
   left: 0;
   right: 0;
@@ -1461,6 +1568,120 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
   margin-left: -3px;
 }
 
+.tab a {
+  text-decoration: none;
+  color: #D8D8D8;
+}
+
+.tabActive a {
+  color: #111;
+}
+
+@media only screen and (min-width: 600px) {
+  .pageControls button, .pageControls .button {
+    display: inline-block;
+    width: auto;
+    padding: 0 4em;
+  }
+
+  .pageControls button + button, .pageControls .button + .button {
+    margin-left: .2em;
+  }
+
+  .pageControls .buttonInnerText {
+    font-size: 1.2em;
+  }
+
+  .pageControls.sign-in .button {
+    width: 18em;
+  }
+}
+.contentWrapper {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.systemContent {
+  margin: 4.5em 0;
+}
+
+.contentSection + .contentSection {
+  margin-top: 3em;
+}
+
+.SectionInner + .SectionInner {
+  margin-top: 3em;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: .85em;
+  }
+
+  .contentWrapper {
+    width: 70%;
+  }
+
+  .content {
+    width: 75%;
+  }
+
+  .systemContent {
+    margin: 5em 0;
+  }
+
+  .contentSection + .contentSection {
+    margin-top: 5em;
+  }
+
+  .SectionInner + .SectionInner {
+    margin-top: 4.5em;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    font-size: .95em;
+  }
+
+  .contentWrapper {
+    width: 65%;
+  }
+
+  .scrollContainerInnner {
+    padding: 0 17.5%;
+  }
+
+  .content {
+    width: 80%;
+  }
+
+  .systemContent {
+    margin: 6em 0;
+  }
+
+  .contentSection + .contentSection {
+    margin-top: 7em;
+  }
+
+  .SectionInner + .SectionInner {
+    margin-top: 5.5em;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  body {
+    font-size: 1.2em;
+  }
+
+  .content {
+    width: 65%;
+  }
+
+  .systemContent {
+    margin: 6.5em 0;
+  }
+}
 .browser {
   display: inline-block;
   width: 4.5em;

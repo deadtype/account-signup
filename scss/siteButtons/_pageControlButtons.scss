@@ -1,0 +1,22 @@
+.pageControls button, .pageControls .button {
+	color: white;
+	height:5em;
+}
+
+
+.pageControls.sign-in .button {
+	width: 100%;
+}
+
+.pageControls.sign-in input {
+	color: white;
+}
+
+.pageControls .button .buttonInnerText {
+	@include center;
+	width: auto;
+}
+
+.pageControls .buttonInnerText {
+	font-size: 1.1em;
+}

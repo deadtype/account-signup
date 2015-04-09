@@ -3,6 +3,15 @@
 	body {
 		font-size: .95em;
 	}
+	
+	.contentWrapper {
+	   	width: 65%;
+	}
+	
+	.scrollContainerInnner {
+	padding: 0 17.5%;
+
+}
 
 	.content {
 		width: 80%;
@@ -15,4 +24,9 @@
 	.contentSection + .contentSection {
 		margin-top: 7em;
 	}
+
+	.SectionInner + .SectionInner {
+	margin-top: 5.5em;
+	}
+
 }

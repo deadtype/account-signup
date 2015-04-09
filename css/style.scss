@@ -7,10 +7,9 @@
 @import '../scss/sitewide/buttons';
 @import '../scss/sitewide/headers';
 
-@import '../scss/siteProportions/proportions';
-@import '../scss/siteProportions/proportions-M';
-@import '../scss/siteProportions/proportions-L';
-@import '../scss/siteProportions/proportions-XL';
+
+
+
 
 
 @import '../scss/formStyles/formCore';
@@ -47,8 +46,24 @@
 @import '../scss/formStyles/formFlexbox-XL';
 
 
-@import '../scss/systemHeader';
-@import '../scss/systemNavigation';
+@import '../scss/siteHeader/mainNavigation';
+@import '../scss/siteHeader/tabbedNavigation';
+@import '../scss/siteHeader/tabbedNavigation-M';
+
+@import '../scss/siteButtons/generalButtons';
+@import '../scss/siteButtons/pageControlButtons';
+@import '../scss/siteButtons/smallestButtons';
+@import '../scss/siteButtons/tabButtons';
+
+@import '../scss/siteButtons/pageControlButtons-M';
+
+
+
+@import '../scss/siteProportions/proportions';
+@import '../scss/siteProportions/proportions-M';
+@import '../scss/siteProportions/proportions-L';
+@import '../scss/siteProportions/proportions-XL';
+
 
 @import '../scss/desktop';
 

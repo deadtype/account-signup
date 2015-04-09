@@ -1,0 +1,38 @@
+.systemNavigation {
+	height: 15em;
+	border-bottom: $PROMINENT_BORDER solid $BASE_BUTTON_COLOR;
+	position: relative;
+}
+
+.systemNavigation .contentWrapper {
+	position: relative;
+	height: 100%;
+}
+
+.systemNavigationInner {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.NavigationExtraContent {
+	position: absolute; 
+	top: 30%;
+	left: 0;
+	text-align: left;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.scrollContainer {
+			overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.scrollContainerInnner {
+	width: 2400px;
+	padding: 0 7.5%;
+
+}

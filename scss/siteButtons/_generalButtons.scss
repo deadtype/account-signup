@@ -1,0 +1,52 @@
+button, .button, .pageControls.sign-in input {
+	background: white;
+	border-radius: none;
+	line-height: 1.4;
+	position: relative;
+	border: none;
+	color: $BASE_BUTTON_TEXT_COLOR;
+	font-weight: 700;
+	cursor: pointer;
+	width: 100%;
+}
+
+.pageControls.sign-in input {
+	color: white;
+	background: transparent;
+}
+.buttonInnerText {
+	width: 100%;
+	font-size: .9em;
+}
+
+.buttonCentered .buttonInnerText {
+	position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);;
+}
+
+.buttonEmphasis {
+	background: #4edfa5;
+}
+
+.buttonError {
+	background: red;
+}
+
+.buttonNoEmphasis {
+	background: rgb(230,230,230);
+}
+.buttonDisabled {
+	opacity: .5;
+}
+
+button + button {
+	margin-top: .5em;
+}

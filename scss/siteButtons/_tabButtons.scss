@@ -1,14 +1,8 @@
-.systemNavigation {
-	height: 15em;
-	border-bottom: $PROMINENT_BORDER solid $BASE_BUTTON_COLOR;
-	position: relative;
-}
-
-
 .tabControls {
 	position: absolute;
 	bottom:-$PROMINENT_BORDER;
 	z-index: 1000;
+	max-width: 100%;
 }
 
 .tab {
@@ -17,9 +11,10 @@
 	padding: .75em 1.7em;
 	z-index: 1000;
 	position: relative;
-	font-weight: 700;
+	font-weight: 500;
 	color: $LIGHT_GRAY;
-	font-size: .95em;
+	font-size: .9em;
+	background: white;
 
 }
 
@@ -33,13 +28,14 @@
 	z-index: 3000;
 }
 
-.tab.active {
+.tabActive {
 	border: $PROMINENT_BORDER solid $BASE_BUTTON_COLOR;
 	z-index: 2000;
-	color: $DARK_GRAY;
+	color: $BLACK;
 }
 
-.tab.active .tabBorder {
+
+.tabActive .tabBorder {
 	background: white;
 	left: 0;
 	right: 0;
@@ -47,4 +43,15 @@
 
 .tab + .tab {
 	margin-left: -$PROMINENT_BORDER;
+}
+
+
+.tab a {
+	text-decoration: none;
+	color: #D8D8D8;
+}
+
+
+.tabActive a {
+	color: $BLACK;
 }

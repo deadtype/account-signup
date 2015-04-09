@@ -44,8 +44,8 @@
 	    display: -ms-flexbox;
 	    display: flex;
     	-webkit-box-align: center;
--webkit-align-items: center;
-    -ms-flex-align: center;
+		-webkit-align-items: center;
+    	-ms-flex-align: center;
         align-items: center;
 
 	}
@@ -67,9 +67,9 @@
 		padding-left: 12rem;
 	}
 
-.select-input::after {
-	right: 1.75em;
-}
+	.select-input::after {
+		right: 1.75em;
+	}
 
 
 }

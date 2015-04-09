@@ -1,0 +1,20 @@
+@media only screen and (min-width: 600px) {
+	.pageControls button, .pageControls .button {
+		display: inline-block;
+		width: auto;
+		padding: 0 4em;
+	}
+
+	.pageControls button + button, .pageControls .button + .button {
+		margin-left: .2em;
+	}
+
+	.pageControls .buttonInnerText {
+		font-size: 1.2em;
+
+	}
+
+	.pageControls.sign-in .button {
+	width: 18em;
+}
+}

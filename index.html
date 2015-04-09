@@ -11,13 +11,13 @@
 
     </head>
     <body>
-        <div class="systemHeader">
+        <div class="systemHeader clearfix">
             <div class='contentWrapper'>
                 <div class='brandMark'>
                     <img src='/img/brandMark.png'>
                 </div>
                 <div class='accountControls'>
-                    <button class='signOut'>Sign In</button>
+                    <a href='/sign-in.html'>Sign In</a>
                 </div>
             </div>
         </div>
@@ -25,17 +25,23 @@
         <div class="systemNavigation">
             <div class='contentWrapper'>
                 <div class="tabControls">
-                    <div class='tab active'>
-                        1. Your Info
-                        <div class='tabBorder'>
-                        </div>
-                    </div>
-                    <div class='tab'>
-                        2. Your Quote
-                        <div class='tabBorder'>
-                        </div>
-                    </div>
+                        <div class='tab tabActive'>
+                                                <a href=''>
 
+                           Apply Now
+                                                </a>
+
+                            <div class='tabBorder'>
+                            </div>
+                        </div>
+                        <div class='tab'>
+                             <a href='sign-in.html'>
+
+                            Applied Before? - Sign In
+                                </a>
+                            <div class='tabBorder'>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -45,7 +51,7 @@
 
                 <div class='contentSection PageHeader'>
                     <header>
-                        <h2><div class='major'>One Step Away from Your Personalized Quote</div></h2>
+                        <h2><div class='major'>3 Minutes Away from Your Personalized Quote</div></h2>
                         <div class='content'>
                             Get your rate in one simple step. A few questions and will provide you with a dynamic personalized quote, which you can adjust to fit your specific needs. The application is completely secure and you can erase all traces of the quote and your information at any time. Checking your rate does not affect your credit score and all of your information is completely secure. 
                         </div>
@@ -245,6 +251,7 @@
                                     <input type='tel' id='dateOfBirthField-month' maxlength="2" placeholder='MM'/>
                                     <span class='MultiInputSeparator'>/</span>
                                     <input type='tel' id='dateOfBirthField-date' maxlength="2"  placeholder='DD'/>
+                                    <label class="assistiveWrapperLabel" for="dateOfBirthField-year"></label>
                                 </div>
                             </div>
                                 <div class='helperContainer'>
