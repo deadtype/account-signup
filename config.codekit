@@ -80,17 +80,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/person.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114422,
-		"inputAbbreviatedPath": "\/img\/person.png",
-		"outputAbbreviatedPath": "\/img\/person.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/select-arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
