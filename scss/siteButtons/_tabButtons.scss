@@ -1,6 +1,6 @@
 .tabControls {
 	position: absolute;
-	bottom:-$PROMINENT_BORDER;
+	bottom: 0;
 	z-index: 1000;
 	max-width: 100%;
 }
@@ -8,7 +8,7 @@
 .tab {
 	float: left;
 	border: $PROMINENT_BORDER solid $VERY_LIGHT_GRAY;
-	padding: .75em 1.7em;
+	padding: .75em 1.65em;
 	z-index: 1000;
 	position: relative;
 	font-weight: 500;

@@ -1,0 +1,104 @@
+.sliderContentWrap {
+	margin: auto;
+}
+
+.controlButtonContainer, .currentAmount, .arrowDown, .arrowContainer {
+	display: none;
+}
+
+.inputRangeContainer {
+	position: relative;
+}
+
+	
+.controlSection a,.amountMinimum a,.amountMaximum a {
+		color: #50E3C2;
+	}
+
+
+
+.inputRange {
+	height: 15px;
+	border-radius: 3px;
+	position: relative; 
+}
+
+	.inputRangeIndicator {
+		height: 2px;
+		background: #bfbfbf;
+		margin-bottom: .25em;
+	}
+
+	.amount {
+	  font-size: .75em;
+	  color: lightgray;
+	  z-index: -10; 
+	}
+
+	.amountMinimum {
+		float: left;
+	}
+
+	.amountMaximum {
+		float: right;
+	}
+
+	.rangeSelector {
+		position: absolute;
+		left: 50%;
+		right: auto;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		background: white;
+		text-align: center;
+		box-shadow: 0px 0px 18px 18px rgba(255, 255, 255, 0.9); 
+		width: 2.5em;
+		padding: 0;
+		bottom: -0.1em;
+	}
+
+	.controlHandle {
+		padding: .5em .9em;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+		box-shadow: 0px 0px 6px 2px #e6e6e6;
+		margin: 0;
+
+		height: 2.5em;
+		width: 2.5em;
+		border-radius: 2em;
+		position: relative;
+	}
+
+	.controlHandle:hover {
+		box-shadow: 0px 0px 8px 4px #e0e0e0;
+	}
+
+	.controlHandleContainer {
+	  position: absolute;
+	  position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  bottom: auto;
+	  right: auto;
+	  -webkit-transform: translateX(-50%) translateY(-50%);
+	  -moz-transform: translateX(-50%) translateY(-50%);
+	  -ms-transform: translateX(-50%) translateY(-50%);
+	  -o-transform: translateX(-50%) translateY(-50%);
+	  transform: translateX(-50%) translateY(-50%); 
+	}
+	
+	.bar {
+	  width: 2px;
+	  height: 12px;
+	  float: left;
+	  background: #50E3C2; }
+	
+	.bar + .bar {
+	  margin-left: 3px;
+	}
+

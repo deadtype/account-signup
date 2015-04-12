@@ -1,0 +1,79 @@
+.hide {
+	display: none;
+}
+
+.loanInfoSection-x {}
+
+.loanDetailsWrapper {
+	margin: 1.5em 0;
+	width: 100%;
+	height: inherit;
+	text-align: center;
+}
+
+.loanDetailsInnerWrapper {
+		font-size: .75em;
+}
+
+.loanInfoSection {
+	width: 33.1%;
+	float:left;
+
+}
+
+.loanInfoSection + .loanInfoSection {
+	border-left: 1px solid $LIGHT_GRAY;
+}
+
+
+.loanInfo {
+	margin-top: 1.1em;
+	font-size: 1.05em;
+}
+
+
+.updateButtonWrapper, .loanTableWrapper {
+	width: 100%;
+}
+
+.updateButtonWrapper {
+	position: relative;
+	margin: 3em 0 1.5em;
+
+}
+
+.loanCaption {
+	margin-top: 1em;
+	text-align: center;
+	font-size: 0.5em;
+	line-height: 1.4;
+	color: dimgray;
+	width: 100%;
+	float: left;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: .75em;
+}
+
+.updateButtonWrapper button {
+		font-size: .75em;
+		height: 5em;
+		text-transform: uppercase;
+		color: white;
+		width:19em;
+	}
+
+.loanDetailsWrapper .caption {
+	text-align: center;
+	font-size: .7em;
+}
+
+.red {
+	background: rgb(255, 0, 58);
+	border-radius: 2px;
+}
+
+.button:disabled, .red:disabled {
+	background: $VERY_LIGHT_GRAY;
+	cursor: auto;
+}

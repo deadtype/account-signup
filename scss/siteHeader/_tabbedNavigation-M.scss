@@ -1,14 +1,21 @@
 @media only screen and (min-width: 600px) {
 
 
-	.NavigationExtraContent {
-		top: initial;
-		bottom: .25em;
-		left: initial;
-		right: 0;
+
+
+	.AccountMetaInfo {
 		text-align: right;
-		font-size: 2em;
-		font-weight: 700;
+		right: 12em;
+	}
+
+	.preSignIn {
+		margin-top: .2em;
+		margin-right: -.85em;
+		font-size: 2.2em;
+		line-height: 1.1;
+	}
+	.postSignIn {
+		font-size: 1.2em;
 	}
 
 }

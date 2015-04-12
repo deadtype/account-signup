@@ -5,12 +5,24 @@
 @import '../scss/sitewide/mixins';
 @import '../scss/sitewide/base';
 @import '../scss/sitewide/buttons';
-@import '../scss/sitewide/headers';
 
 
+@import '../scss/siteTextStyles/headers';
+@import '../scss/siteTextStyles/captions';
 
 
+@import '../scss/loanStyles/generalLoanDetails';
+@import '../scss/loanStyles/generalLoanDetails-M';
 
+
+@import '../scss/sliderStyles/loanDetails';
+@import '../scss/sliderStyles/loanSlider';
+@import '../scss/sliderStyles/loanTotal';
+
+
+@import '../scss/sliderStyles/loanDetails-M';
+@import '../scss/sliderStyles/loanSlider-M';
+@import '../scss/sliderStyles/loanTotal-M';
 
 @import '../scss/formStyles/formCore';
 
@@ -56,8 +68,6 @@
 @import '../scss/siteButtons/tabButtons';
 
 @import '../scss/siteButtons/pageControlButtons-M';
-
-
 
 @import '../scss/siteProportions/proportions';
 @import '../scss/siteProportions/proportions-M';

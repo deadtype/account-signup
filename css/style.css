@@ -537,6 +537,7 @@ body, input, textarea, select, button, .button {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 menu, ul, ol {
@@ -594,6 +595,544 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.5em;
 }
 
+.caption {
+  font-style: italic;
+  font-size: .8em;
+  margin-top: 1.8em;
+}
+
+.loanTotal {
+  margin-bottom: 2em;
+}
+
+.infoLabel {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 700;
+  width: 100%;
+  line-height: 1.2;
+}
+
+.loanTotal .loanInfo {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-top: .1em;
+}
+
+.loanDetails .loadDetailsSection {
+  width: 6em;
+  float: left;
+  text-align: left;
+  margin-right: 1.5em;
+}
+
+.loadDetailsSection.termOfLoan {
+  margin-right: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .loanTotal .loanInfo {
+    font-size: 4.5em;
+    font-weight: 800;
+  }
+
+  .loanDetails .loadDetailsSection {
+    width: 10em;
+  }
+
+  .loanDetails {
+    margin-bottom: 4em;
+  }
+}
+.hide {
+  display: none;
+}
+
+.loanDetailsWrapper {
+  margin: 1.5em 0;
+  width: 100%;
+  height: inherit;
+  text-align: center;
+}
+
+.loanDetailsInnerWrapper {
+  font-size: .75em;
+}
+
+.loanInfoSection {
+  width: 33.1%;
+  float: left;
+}
+
+.loanInfoSection + .loanInfoSection {
+  border-left: 1px solid #D8D8D8;
+}
+
+.loanInfo {
+  margin-top: 1.1em;
+  font-size: 1.05em;
+}
+
+.updateButtonWrapper, .loanTableWrapper {
+  width: 100%;
+}
+
+.updateButtonWrapper {
+  position: relative;
+  margin: 3em 0 1.5em;
+}
+
+.loanCaption {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 0.5em;
+  line-height: 1.4;
+  color: dimgray;
+  width: 100%;
+  float: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: .75em;
+}
+
+.updateButtonWrapper button {
+  font-size: .75em;
+  height: 5em;
+  text-transform: uppercase;
+  color: white;
+  width: 19em;
+}
+
+.loanDetailsWrapper .caption {
+  text-align: center;
+  font-size: .7em;
+}
+
+.red {
+  background: #ff003a;
+  border-radius: 2px;
+}
+
+.button:disabled, .red:disabled {
+  background: #F7F7F7;
+  cursor: auto;
+}
+
+.sliderContentWrap {
+  margin: auto;
+}
+
+.controlButtonContainer, .currentAmount, .arrowDown, .arrowContainer {
+  display: none;
+}
+
+.inputRangeContainer {
+  position: relative;
+}
+
+.controlSection a, .amountMinimum a, .amountMaximum a {
+  color: #50E3C2;
+}
+
+.inputRange {
+  height: 15px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.inputRangeIndicator {
+  height: 2px;
+  background: #bfbfbf;
+  margin-bottom: .25em;
+}
+
+.amount {
+  font-size: .75em;
+  color: lightgray;
+  z-index: -10;
+}
+
+.amountMinimum {
+  float: left;
+}
+
+.amountMaximum {
+  float: right;
+}
+
+.rangeSelector {
+  position: absolute;
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: white;
+  text-align: center;
+  box-shadow: 0px 0px 18px 18px rgba(255, 255, 255, 0.9);
+  width: 2.5em;
+  padding: 0;
+  bottom: -0.1em;
+}
+
+.controlHandle {
+  padding: .5em .9em;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 6px 2px #e6e6e6;
+  margin: 0;
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 2em;
+  position: relative;
+}
+
+.controlHandle:hover {
+  box-shadow: 0px 0px 8px 4px #e0e0e0;
+}
+
+.controlHandleContainer {
+  position: absolute;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.bar {
+  width: 2px;
+  height: 12px;
+  float: left;
+  background: #50E3C2;
+}
+
+.bar + .bar {
+  margin-left: 3px;
+}
+
+.loanTotalWrapper {
+  text-align: center;
+  position: relative;
+  height: 100%;
+  -webkit-text-size-adjust: none;
+}
+
+.loanInfo .label {
+  text-transform: uppercase;
+  font-size: .5em;
+  font-weight: 700;
+  margin-bottom: .8em;
+  width: 100%;
+}
+
+.loanOfferInnnerContainer {
+  height: 3.75em;
+}
+
+.loanTotalContainer {
+  width: 12em;
+  display: inline-block;
+  height: inherit;
+  vertical-align: top;
+}
+
+.loanInfoSectionEmphasis {
+  height: inherit;
+  border: 3px solid lightgray;
+  box-shadow: 0 0 12px 3px #ebebeb;
+  padding: .45em .65em .35em;
+}
+
+.loanInfoSectionInnerContainer {
+  position: relative;
+  height: 100%;
+}
+
+.loanAmountInputContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  font-size: 1.6em;
+}
+
+.loanAmountInputContainer input {
+  border: none;
+  width: 100%;
+  font-size: .9em;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.increaseContainer, .decreaseContainer {
+  display: inline-block;
+  height: inherit;
+  width: 3.5em;
+  position: relative;
+}
+
+.mobileControlButton {
+  font-size: 1.8em;
+  font-weight: 800;
+  color: #50E3C2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+}
+
+.large_screen {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .loanDetailsWrapper {
+    width: 80%;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .loanDetailsContentWrapper {
+    position: relative;
+    height: 5em;
+  }
+
+  .loanDetailsInnerWrapper {
+    font-size: .85em;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+  }
+
+  .updateButtonWrapper {
+    width: 25%;
+    float: left;
+    margin: 0;
+    text-align: right;
+  }
+
+  .updateButtonWrapper button {
+    width: 70%;
+    font-size: .65em;
+    height: 4.5em;
+  }
+
+  .loanTableWrapper {
+    width: 75%;
+    float: right;
+  }
+
+  .lastBorder {
+    border-right: 1px solid #D8D8D8;
+  }
+
+  .loanCaption {
+    text-align: left;
+  }
+
+  .loanDetailsWrapper .caption {
+    margin-top: 1.5em;
+    text-align: right;
+    font-size: .55em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .controlButtonContainer, .currentAmount, .arrowDown, .arrowContainer {
+    display: inline-block;
+  }
+
+  .inputRangeContainer {
+    margin-top: 5em;
+  }
+
+  .inputRangeIndicator {
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    width: 100%;
+  }
+
+  .controlSection, .amountMinimum, .amountMaximum {
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: white;
+    line-height: 1;
+  }
+
+  .controlSection > div, .amountMaximum > div, .amountMinimum > div, .controlSection a, .amountMaximum a, .amountMinimum a {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .amountMinimum {
+    left: 0;
+    padding-right: 2em;
+  }
+
+  .amountMaximum {
+    right: 0;
+    padding-left: 2em;
+  }
+
+  .amountMaximum .amount {
+    margin-right: 1em;
+  }
+
+  .amountMinimum .amount {
+    margin-left: 1em;
+  }
+
+  .amount {
+    font-size: .8em;
+  }
+
+  .rangeSelector {
+    bottom: -.5em;
+    padding: 0 1.25em;
+    width: 10em;
+  }
+
+  .currentAmount {
+    font-size: 1.1em;
+    line-height: 1;
+    font-weight: 500;
+    color: #8c8c8c;
+    width: 100%;
+  }
+
+  .arrowDown {
+    width: 4em;
+    margin: 0 auto .5em;
+  }
+
+  .controlContainer > div, .controlContainer > a {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+  }
+
+  .arrow {
+    width: .6em;
+  }
+
+  .controlHandle {
+    margin: 0em 1em 0;
+  }
+
+  .control {
+    width: 1.8em;
+    height: 1.8em;
+    font-weight: 900;
+    line-height: 1;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 5px 1px #ededed;
+  }
+
+  .control:hover {
+    box-shadow: 0px 0px 8px 4px #e6e6e6;
+  }
+
+  .controlIcon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: white;
+    font-size: 1.4em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .loanTotalWrapper {
+    width: 20%;
+    float: left;
+  }
+
+  .loanTotalWrapper .label {
+    position: absolute;
+    text-align: left;
+    top: 0;
+    left: 0;
+  }
+
+  .loanOfferInnnerContainer {
+    height: 100%;
+    height: 5em;
+  }
+
+  .loanTotalContainer {
+    float: left;
+    width: 100%;
+  }
+
+  .loanAmountInputContainer {
+    width: 100%;
+    font-size: 1.6em;
+    line-height: 1.3;
+    left: 0;
+    top: auto;
+    right: auto;
+    bottom: 0em;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
+  .loanAmountInputContainer input {
+    border-bottom: 2px solid lightgray;
+    text-align: left;
+    font-size: 1em;
+    padding-bottom: .1em;
+  }
+
+  .increaseContainer, .decreaseContainer {
+    display: none;
+  }
+
+  .large_screen {
+    display: block;
+  }
+
+  .small_screen {
+    display: none;
+  }
+}
 input, select, textarea, label {
   border: none;
   padding: 0;
@@ -1384,8 +1923,8 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
 
 .systemNavigation {
   height: 15em;
-  border-bottom: 3px solid #D8D8D8;
   position: relative;
+  overflow: hidden;
 }
 
 .systemNavigation .contentWrapper {
@@ -1401,15 +1940,6 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
   bottom: 0;
 }
 
-.NavigationExtraContent {
-  position: absolute;
-  top: 30%;
-  left: 0;
-  text-align: left;
-  font-size: 2em;
-  font-weight: 700;
-}
-
 .scrollContainer {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
@@ -1420,15 +1950,57 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
   padding: 0 7.5%;
 }
 
+.AccountMetaInfo, .AccountImage {
+  position: absolute;
+}
+
+.preSignIn {
+  font-size: 1.85em;
+  margin-top: .35em;
+  font-weight: 800;
+  line-height: 1.1;
+  text-align: right;
+  color: #444;
+}
+
+.AccountMetaInfo {
+  margin-top: 3em;
+  right: 10em;
+  text-align: right;
+}
+
+.AccountImage {
+  width: 13em;
+  right: -4em;
+  bottom: -.1em;
+  z-index: -10;
+}
+
+.personName {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.personAddress {
+  margin-top: 1.4em;
+  font-size: .8em;
+}
+
 @media only screen and (min-width: 600px) {
-  .NavigationExtraContent {
-    top: initial;
-    bottom: .25em;
-    left: initial;
-    right: 0;
+  .AccountMetaInfo {
     text-align: right;
-    font-size: 2em;
-    font-weight: 700;
+    right: 12em;
+  }
+
+  .preSignIn {
+    margin-top: .2em;
+    margin-right: -.85em;
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
+
+  .postSignIn {
+    font-size: 1.2em;
   }
 }
 button, .button, .pageControls.sign-in input {
@@ -1525,7 +2097,7 @@ button + button {
 
 .tabControls {
   position: absolute;
-  bottom: -3px;
+  bottom: 0;
   z-index: 1000;
   max-width: 100%;
 }
@@ -1533,7 +2105,7 @@ button + button {
 .tab {
   float: left;
   border: 3px solid #F7F7F7;
-  padding: .75em 1.7em;
+  padding: .75em 1.65em;
   z-index: 1000;
   position: relative;
   font-weight: 500;
@@ -1604,7 +2176,9 @@ button + button {
 }
 
 .systemContent {
-  margin: 4.5em 0;
+  padding: 4.5em 0;
+  border-top: 3px solid lightgray;
+  margin-top: -3px;
 }
 
 .contentSection + .contentSection {
@@ -1629,7 +2203,7 @@ button + button {
   }
 
   .systemContent {
-    margin: 5em 0;
+    padding: 5em 0;
   }
 
   .contentSection + .contentSection {
@@ -1658,7 +2232,7 @@ button + button {
   }
 
   .systemContent {
-    margin: 6em 0;
+    padding: 6em 0;
   }
 
   .contentSection + .contentSection {
@@ -1679,7 +2253,7 @@ button + button {
   }
 
   .systemContent {
-    margin: 6.5em 0;
+    padding: 6.5em 0;
   }
 }
 .browser {

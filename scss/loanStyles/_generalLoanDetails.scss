@@ -1,0 +1,30 @@
+.loanTotal {
+	margin-bottom: 2em;
+}
+
+.infoLabel {
+	text-transform : uppercase;
+	font-size : 0.7em;
+	font-weight : 700;
+	width : 100%;
+	line-height: 1.2;
+}
+
+
+
+.loanTotal .loanInfo {
+	font-size: 3.5em;
+	font-weight: 700;
+	margin-top: .1em;
+}
+
+.loanDetails .loadDetailsSection {
+	width: 6em; 
+	float: left;
+	text-align: left;
+	margin-right: 1.5em;
+}
+
+.loadDetailsSection.termOfLoan {
+	margin-right: 0;
+}
