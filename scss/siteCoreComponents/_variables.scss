@@ -1,9 +1,9 @@
-$base-font-family: 'Lato', Helvetica, Arial, sans-serif;
-$base-font-size:   .8em;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$SYSTEM_FONT: 'Lato', Helvetica, Arial, sans-serif;
+$SYSTEM_FONT_SIZE:   .8em;
+$SYSTEM_LINE_HEIGHT: 1.5;
 
 $PROMINENT_BORDER: 3px;
+$-PROMINENT_BORDER: -3px;
 
 $BLACK: #111;
 
@@ -14,7 +14,7 @@ $DARK_GRAY: #979797;
 $VERY_LIGHT_GRAY: #F7F7F7;
 
 
-$base-font-color: $OFF_BLACK;
+$SYSTEM_FONT_COLOR: $OFF_BLACK;
 
 $BASE_BUTTON_COLOR: $LIGHT_GRAY;
 $BASE_BUTTON_TEXT_COLOR: $DARK_GRAY;

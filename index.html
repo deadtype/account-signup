@@ -86,8 +86,10 @@
                                 </div>
 
                                 <div class='inputContainer '>
-                                    <div class='inputFieldContainer dollar'>
-                                        <input type='tel' id='loanAmountField' placeholder='Enter Amount'/>
+                                    <div class='inputFieldContainer dollar prependix'>
+                                        <div class="prependixInnerContainer">
+                                            <input type='tel' id='loanAmountField' placeholder='Enter Amount'/>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -325,14 +327,18 @@
                             </div>
 
                             <div class='inputContainer '>
-                                <div class='inputFieldContainer'>
-                                    <span class='phoneBracket'>(</span>
-                                    <input type='tel' id='phoneNumberField-areaCode' maxlength="3" placeholder='###'/>
-                                    <span class='phoneBracket'>)</span>
-                                    <span class='MultiInputSeparator'>-</span>
-                                    <input type='tel' id='phoneNumberField-firstThree' maxlength="3" placeholder='###'/>
-                                    <span class='MultiInputSeparator'>-</span>
-                                    <input type='tel' id='phoneNumberField-lastFour' maxlength="4" placeholder='####'/>
+                                <div class='inputFieldContainer telephone prependix'>
+                                    <div class="prependixInnerContainer">
+                                        <span class='phoneBracket'>(</span>
+                                        <input type='tel' id='phoneNumberField-areaCode' maxlength="3" placeholder='###'/>
+                                        <span class='phoneBracket'>)</span>
+                                        <span class='MultiInputSeparator'>-</span>
+                                        <input type='tel' id='phoneNumberField-firstThree' maxlength="3" placeholder='###'/>
+                                        <span class='MultiInputSeparator'>-</span>
+                                        <input type='tel' id='phoneNumberField-lastFour' maxlength="4" placeholder='####'/>
+                                        <label class='assistiveWrapperLabel' for='phoneNumberField-areaCode'></label>
+
+                                    </div>
                                 </div>
                             </div>
                             <div class='helperContainer'>
@@ -501,6 +507,8 @@
                                     <input type='text' id='postalCodeField-5' maxlength="1" placeholder='L'/>
                                     
                                     <input type='tel' id='postalCodeField-6' maxlength="1" placeholder='#'/>
+                                    <label class='assistiveWrapperLabel' for='postalCodeField-1'></label>
+
                                 </div>
                             </div>
                                 <div class='helperContainer'>
@@ -554,8 +562,10 @@
                             </div>
 
                             <div class='inputContainer '>
-                                <div class='inputFieldContainer dollar'>
-                                    <input type='tel' id='employmentIncomeField' placeholder='Enter Amount'/>
+                                <div class='inputFieldContainer dollar prependix'>
+                                    <div class="prependixInnerContainer">
+                                        <input type='tel' id='employmentIncomeField' placeholder='Enter Amount'/>
+                                    </div>
                                 </div>
                             </div>
                                 <div class='helperContainer'>
@@ -588,6 +598,8 @@
                                     <input type='tel' id='socialInsuranceField-secondThree' maxlength="3" placeholder='###'/>
                                     <span class='MultiInputSeparator'>-</span>
                                     <input type='tel' id='socialInsuranceField-lastThree' maxlength="3" placeholder='###'/>
+                                    <label class='assistiveWrapperLabel' for='socialInsuranceField-firstThree'></label>
+
                                 </div>
                             </div>
                                 <div class='helperContainer'>

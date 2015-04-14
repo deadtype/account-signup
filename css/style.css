@@ -574,15 +574,6 @@ a:hover {
   clear: both;
 }
 
-button {
-  background: white;
-  border: 1px solid #D8D8D8;
-  border-radius: none;
-  color: #979797;
-  font-size: 1em;
-  line-height: 1.4;
-}
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   margin: 0;
@@ -1133,6 +1124,17 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 }
+input, .input {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-radius: 0;
+  font-weight: 600;
+  -webkit-appearance: none;
+}
+
 input, select, textarea, label {
   border: none;
   padding: 0;
@@ -1152,7 +1154,7 @@ input:active, input:focus, select:focus, textarea:focus {
 }
 
 input::-webkit-input-placeholder {
-  color: #e6e6e6;
+  color: green;
 }
 
 input::-moz-placeholder {
@@ -1219,6 +1221,7 @@ input:-ms-input-placeholder {
   display: block;
   padding-left: .8rem;
   padding-right: .8rem;
+  width: auto;
 }
 
 .helperLabel {
@@ -1250,13 +1253,17 @@ input:-ms-input-placeholder {
   position: relative;
 }
 
-.inputFieldContainer.dollar input {
+.prependix .prependixInnerContainer {
   padding-left: 1.3em;
+  z-index: 10;
 }
 
-.dollar::before {
+.prependix.telephone .prependixInnerContainer {
+  padding-left: 1.7em;
+}
+
+.prependix::before {
   pointer-events: none;
-  content: '$';
   width: 13px;
   font-weight: 800;
   padding-left: .8rem;
@@ -1268,6 +1275,17 @@ input:-ms-input-placeholder {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.dollar::before {
+  content: '$';
+}
+
+.telephone::before {
+  content: '+1';
+  padding-left: 0;
 }
 
 .multiInput input, .multiInput span {
@@ -1278,6 +1296,7 @@ input:-ms-input-placeholder {
   border-bottom: 2px solid lightgray;
   text-align: center;
   z-index: 10;
+  position: relative;
 }
 
 #dateOfBirthField-year {
@@ -1321,6 +1340,12 @@ input:-ms-input-placeholder {
 
 .postalCodeField input {
   width: 1.1em;
+}
+
+.postalCodeField .freeEntryDisplay input {
+  width: 100%;
+  text-align: left;
+  border-bottom: none;
 }
 
 .postalCodeField input + input {
@@ -1485,6 +1510,11 @@ input[type="checkbox"]:checked + label::after {
   animation: cd-bounce 0.3s;
 }
 
+.labelWrapper {
+  margin-left: 3em;
+  margin-top: -1em;
+}
+
 @-webkit-keyframes cd-bounce {
   0%, 100% {
     -webkit-transform: scale(1);
@@ -1518,12 +1548,12 @@ input[type="checkbox"]:checked + label::after {
   border-left: 5px solid #68b18f;
 }
 
-select, .dollar::before, .MultiInputSeparator, .phoneBracket {
+select, .focus .prependix::before, .MultiInputSeparator, .phoneBracket {
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 
-.focus select, .focus .dollar::before, .focus .MultiInputSeparator, .focus .phoneBracket {
+.focus select, .focus .MultiInputSeparator, .focus .phoneBracket, .focus .prependix::before {
   color: #444 !important;
 }
 
@@ -1542,6 +1572,10 @@ select, .dollar::before, .MultiInputSeparator, .phoneBracket {
 .other.focus .text-area-input textarea {
   background: white;
   border: 1px solid #ededed;
+}
+
+.focus .select-input::after {
+  opacity: 1;
 }
 
 .errorInfo {
@@ -1605,8 +1639,8 @@ select, .dollar::before, .MultiInputSeparator, .phoneBracket {
   color: #333 !important;
 }
 
-filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
-  color: #555 !important;
+.filled .prependix::before, .filled .MultiInputSeparator, .filled .phoneBracket {
+  color: #444 !important;
 }
 
 .filled input::-webkit-input-placeholder {
@@ -1705,10 +1739,6 @@ filled .dollar::before, .filled .MultiInputSeparator, .filled .phoneBracket {
   }
 
   /* Dollar Spacing */
-  .inputFieldContainer.dollar input {
-    padding-left: 1em;
-  }
-
   /* Equal Input Heigh */
   .inputContainer input, .multiInput .inputFieldContainer, .inputContainer select {
     padding: 0;

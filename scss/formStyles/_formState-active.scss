@@ -12,12 +12,12 @@
 }
 
 
-select, .dollar::before,  .MultiInputSeparator, .phoneBracket {
+select, .focus .prependix::before,  .MultiInputSeparator, .phoneBracket {
 	  	 -webkit-transition: color 0.3s;
   			transition: color 0.3s;
 }
 
-.focus select, .focus .dollar::before,  .focus .MultiInputSeparator, .focus .phoneBracket {
+.focus select,   .focus .MultiInputSeparator, .focus .phoneBracket, .focus .prependix::before {
 	color: #444!important;
 }
 
@@ -37,4 +37,9 @@ color:  #e6e6e6;
 .other.focus .text-area-input  textarea {
 	background: hsl(152, 32%, 100%);
 	border: 1px solid #ededed;
+}
+
+.focus .select-input::after {
+		  			opacity: 1;
+
 }

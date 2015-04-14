@@ -1,10 +1,9 @@
 @import "bourbon", "neat";
 
-@import '../scss/sitewide/normalize';
-@import '../scss/sitewide/variables';
-@import '../scss/sitewide/mixins';
-@import '../scss/sitewide/base';
-@import '../scss/sitewide/buttons';
+@import '../scss/siteCoreComponents/normalize';
+@import '../scss/siteCoreComponents/variables';
+@import '../scss/siteCoreComponents/mixins';
+@import '../scss/siteCoreComponents/base';
 
 
 @import '../scss/siteTextStyles/headers';

@@ -1,3 +1,4 @@
+
 .multiInput input, .multiInput span {
 	display: inline-block;
 }
@@ -5,7 +6,8 @@
 .multiInput input {
 	border-bottom: 2px solid lightgray;
 	text-align: center;
-	z-index : 10;
+	z-index: 10;
+	position: relative;
 }
 
  #dateOfBirthField-year {
@@ -49,6 +51,11 @@
 	width: 1.1em;
 }
 
+.postalCodeField .freeEntryDisplay input {
+	width: 100%;
+	text-align: left;
+	border-bottom: none;
+}
 .postalCodeField input + input {
 	margin-left: .2em;
 }
@@ -59,4 +66,3 @@
 	top: 0;
     left: 0;
 }
-

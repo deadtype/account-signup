@@ -2,121 +2,14 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
-	"\/browser_unsupported.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/browser_unsupported.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/css\/style.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/style.scss",
-		"outputAbbreviatedPath": "\/css\/style.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/img\/brandMark.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4480,
-		"inputAbbreviatedPath": "\/img\/brandMark.png",
-		"outputAbbreviatedPath": "\/img\/brandMark.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/chrome.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21796,
-		"inputAbbreviatedPath": "\/img\/chrome.png",
-		"outputAbbreviatedPath": "\/img\/chrome.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/firefox.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 187028,
-		"inputAbbreviatedPath": "\/img\/firefox.png",
-		"outputAbbreviatedPath": "\/img\/firefox.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/opera.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75441,
-		"inputAbbreviatedPath": "\/img\/opera.png",
-		"outputAbbreviatedPath": "\/img\/opera.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/select-arrow.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 734,
-		"inputAbbreviatedPath": "\/img\/select-arrow.png",
-		"outputAbbreviatedPath": "\/img\/select-arrow.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/loan-accepted.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/loan-accepted.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/scss\/_desktop.scss": {
+	"\/_desktop.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_desktop.scss",
+		"inputAbbreviatedPath": "\/_desktop.scss",
 		"outputAbbreviatedPath": "\/css\/_desktop.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -125,15 +18,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formCore.scss": {
+	"\/formStyles\/_formCore.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formCore.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formCore.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formCore.scss",
+		"outputAbbreviatedPath": "\/css\/_formCore.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -141,15 +34,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formFlexbox-L.scss": {
+	"\/formStyles\/_formFlexbox-L.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formFlexbox-L.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formFlexbox-L.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formFlexbox-L.scss",
+		"outputAbbreviatedPath": "\/css\/_formFlexbox-L.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -157,15 +50,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formFlexbox-M.scss": {
+	"\/formStyles\/_formFlexbox-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formFlexbox-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formFlexbox-M.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formFlexbox-M.scss",
+		"outputAbbreviatedPath": "\/css\/_formFlexbox-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -173,15 +66,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formFlexbox-XL.scss": {
+	"\/formStyles\/_formFlexbox-XL.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formFlexbox-XL.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formFlexbox-XL.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formFlexbox-XL.scss",
+		"outputAbbreviatedPath": "\/css\/_formFlexbox-XL.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -189,15 +82,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formFlexbox.scss": {
+	"\/formStyles\/_formFlexbox.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formFlexbox.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formFlexbox.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formFlexbox.scss",
+		"outputAbbreviatedPath": "\/css\/_formFlexbox.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -205,15 +98,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formIEfixes.scss": {
+	"\/formStyles\/_formIEfixes.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formIEfixes.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formIEfixes.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formIEfixes.scss",
+		"outputAbbreviatedPath": "\/css\/_formIEfixes.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -221,15 +114,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formInput-Input.scss": {
+	"\/formStyles\/_formInput-Input.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formInput-Input.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formInput-Input.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formInput-Input.scss",
+		"outputAbbreviatedPath": "\/css\/_formInput-Input.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -237,15 +130,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formInput-RadioCheckbox.scss": {
+	"\/formStyles\/_formInput-RadioCheckbox.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formInput-RadioCheckbox.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formInput-RadioCheckbox.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formInput-RadioCheckbox.scss",
+		"outputAbbreviatedPath": "\/css\/_formInput-RadioCheckbox.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -253,15 +146,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formInput-Select-XL.scss": {
+	"\/formStyles\/_formInput-Select-XL.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formInput-Select-XL.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formInput-Select-XL.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formInput-Select-XL.scss",
+		"outputAbbreviatedPath": "\/css\/_formInput-Select-XL.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -269,15 +162,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formInput-Select.scss": {
+	"\/formStyles\/_formInput-Select.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formInput-Select.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formInput-Select.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formInput-Select.scss",
+		"outputAbbreviatedPath": "\/css\/_formInput-Select.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -285,15 +178,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formInput-TextArea.scss": {
+	"\/formStyles\/_formInput-TextArea.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formInput-TextArea.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formInput-TextArea.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formInput-TextArea.scss",
+		"outputAbbreviatedPath": "\/css\/_formInput-TextArea.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -301,15 +194,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formSection-L.scss": {
+	"\/formStyles\/_formSection-L.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formSection-L.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formSection-L.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formSection-L.scss",
+		"outputAbbreviatedPath": "\/css\/_formSection-L.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -317,15 +210,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formSection-M.scss": {
+	"\/formStyles\/_formSection-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formSection-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formSection-M.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formSection-M.scss",
+		"outputAbbreviatedPath": "\/css\/_formSection-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -333,15 +226,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formSection-XL.scss": {
+	"\/formStyles\/_formSection-XL.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formSection-XL.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formSection-XL.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formSection-XL.scss",
+		"outputAbbreviatedPath": "\/css\/_formSection-XL.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -349,15 +242,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formSection.scss": {
+	"\/formStyles\/_formSection.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formSection.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formSection.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formSection.scss",
+		"outputAbbreviatedPath": "\/css\/_formSection.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -365,15 +258,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formSectionHeader.scss": {
+	"\/formStyles\/_formSectionHeader.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formSectionHeader.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formSectionHeader.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formSectionHeader.scss",
+		"outputAbbreviatedPath": "\/css\/_formSectionHeader.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -381,15 +274,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formState-active.scss": {
+	"\/formStyles\/_formState-active.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formState-active.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formState-active.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formState-active.scss",
+		"outputAbbreviatedPath": "\/css\/_formState-active.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -397,15 +290,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formState-error.scss": {
+	"\/formStyles\/_formState-error.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formState-error.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formState-error.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formState-error.scss",
+		"outputAbbreviatedPath": "\/css\/_formState-error.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -413,15 +306,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formState-filled.scss": {
+	"\/formStyles\/_formState-filled.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formState-filled.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formState-filled.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formState-filled.scss",
+		"outputAbbreviatedPath": "\/css\/_formState-filled.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -429,15 +322,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formState-hover-M.scss": {
+	"\/formStyles\/_formState-hover-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formState-hover-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formState-hover-M.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formState-hover-M.scss",
+		"outputAbbreviatedPath": "\/css\/_formState-hover-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -445,15 +338,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/formStyles\/_formState-other.scss": {
+	"\/formStyles\/_formState-other.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/formStyles\/_formState-other.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_formState-other.css",
+		"inputAbbreviatedPath": "\/formStyles\/_formState-other.scss",
+		"outputAbbreviatedPath": "\/css\/_formState-other.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -461,15 +354,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/loanStyles\/_generalLoanDetails-M.scss": {
+	"\/loanStyles\/_generalLoanDetails-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/loanStyles\/_generalLoanDetails-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_generalLoanDetails-M.css",
+		"inputAbbreviatedPath": "\/loanStyles\/_generalLoanDetails-M.scss",
+		"outputAbbreviatedPath": "\/css\/_generalLoanDetails-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -477,15 +370,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/loanStyles\/_generalLoanDetails.scss": {
+	"\/loanStyles\/_generalLoanDetails.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/loanStyles\/_generalLoanDetails.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_generalLoanDetails.css",
+		"inputAbbreviatedPath": "\/loanStyles\/_generalLoanDetails.scss",
+		"outputAbbreviatedPath": "\/css\/_generalLoanDetails.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -493,15 +386,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteButtons\/_generalButtons.scss": {
+	"\/siteButtons\/_generalButtons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteButtons\/_generalButtons.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_generalButtons.css",
+		"inputAbbreviatedPath": "\/siteButtons\/_generalButtons.scss",
+		"outputAbbreviatedPath": "\/css\/_generalButtons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -509,15 +402,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteButtons\/_pageControlButtons-M.scss": {
+	"\/siteButtons\/_pageControlButtons-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteButtons\/_pageControlButtons-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_pageControlButtons-M.css",
+		"inputAbbreviatedPath": "\/siteButtons\/_pageControlButtons-M.scss",
+		"outputAbbreviatedPath": "\/css\/_pageControlButtons-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -525,15 +418,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteButtons\/_pageControlButtons.scss": {
+	"\/siteButtons\/_pageControlButtons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteButtons\/_pageControlButtons.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_pageControlButtons.css",
+		"inputAbbreviatedPath": "\/siteButtons\/_pageControlButtons.scss",
+		"outputAbbreviatedPath": "\/css\/_pageControlButtons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -541,15 +434,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteButtons\/_smallestButtons.scss": {
+	"\/siteButtons\/_smallestButtons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteButtons\/_smallestButtons.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_smallestButtons.css",
+		"inputAbbreviatedPath": "\/siteButtons\/_smallestButtons.scss",
+		"outputAbbreviatedPath": "\/css\/_smallestButtons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -557,15 +450,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteButtons\/_tabButtons.scss": {
+	"\/siteButtons\/_tabButtons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteButtons\/_tabButtons.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_tabButtons.css",
+		"inputAbbreviatedPath": "\/siteButtons\/_tabButtons.scss",
+		"outputAbbreviatedPath": "\/css\/_tabButtons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -573,15 +466,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteCoreComponents\/_base.scss": {
+	"\/siteCoreComponents\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteCoreComponents\/_base.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_base.css",
+		"inputAbbreviatedPath": "\/siteCoreComponents\/_base.scss",
+		"outputAbbreviatedPath": "\/css\/_base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -589,15 +482,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteCoreComponents\/_mixins.scss": {
+	"\/siteCoreComponents\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteCoreComponents\/_mixins.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_mixins.css",
+		"inputAbbreviatedPath": "\/siteCoreComponents\/_mixins.scss",
+		"outputAbbreviatedPath": "\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -605,15 +498,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteCoreComponents\/_normalize.scss": {
+	"\/siteCoreComponents\/_normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteCoreComponents\/_normalize.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_normalize.css",
+		"inputAbbreviatedPath": "\/siteCoreComponents\/_normalize.scss",
+		"outputAbbreviatedPath": "\/css\/_normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -621,15 +514,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteCoreComponents\/_variables.scss": {
+	"\/siteCoreComponents\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteCoreComponents\/_variables.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_variables.css",
+		"inputAbbreviatedPath": "\/siteCoreComponents\/_variables.scss",
+		"outputAbbreviatedPath": "\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -637,15 +530,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteHeader\/_mainNavigation.scss": {
+	"\/siteHeader\/_mainNavigation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteHeader\/_mainNavigation.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_mainNavigation.css",
+		"inputAbbreviatedPath": "\/siteHeader\/_mainNavigation.scss",
+		"outputAbbreviatedPath": "\/css\/_mainNavigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -653,15 +546,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteHeader\/_tabbedNavigation-M.scss": {
+	"\/siteHeader\/_tabbedNavigation-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteHeader\/_tabbedNavigation-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_tabbedNavigation-M.css",
+		"inputAbbreviatedPath": "\/siteHeader\/_tabbedNavigation-M.scss",
+		"outputAbbreviatedPath": "\/css\/_tabbedNavigation-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -669,15 +562,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteHeader\/_tabbedNavigation.scss": {
+	"\/siteHeader\/_tabbedNavigation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteHeader\/_tabbedNavigation.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_tabbedNavigation.css",
+		"inputAbbreviatedPath": "\/siteHeader\/_tabbedNavigation.scss",
+		"outputAbbreviatedPath": "\/css\/_tabbedNavigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -685,15 +578,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteProportions\/_proportions-L.scss": {
+	"\/siteProportions\/_proportions-L.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteProportions\/_proportions-L.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_proportions-L.css",
+		"inputAbbreviatedPath": "\/siteProportions\/_proportions-L.scss",
+		"outputAbbreviatedPath": "\/css\/_proportions-L.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -701,15 +594,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteProportions\/_proportions-M.scss": {
+	"\/siteProportions\/_proportions-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteProportions\/_proportions-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_proportions-M.css",
+		"inputAbbreviatedPath": "\/siteProportions\/_proportions-M.scss",
+		"outputAbbreviatedPath": "\/css\/_proportions-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -717,15 +610,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteProportions\/_proportions-XL.scss": {
+	"\/siteProportions\/_proportions-XL.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteProportions\/_proportions-XL.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_proportions-XL.css",
+		"inputAbbreviatedPath": "\/siteProportions\/_proportions-XL.scss",
+		"outputAbbreviatedPath": "\/css\/_proportions-XL.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -733,15 +626,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteProportions\/_proportions.scss": {
+	"\/siteProportions\/_proportions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteProportions\/_proportions.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_proportions.css",
+		"inputAbbreviatedPath": "\/siteProportions\/_proportions.scss",
+		"outputAbbreviatedPath": "\/css\/_proportions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -749,15 +642,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteTextStyles\/_captions.scss": {
+	"\/siteTextStyles\/_captions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteTextStyles\/_captions.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_captions.css",
+		"inputAbbreviatedPath": "\/siteTextStyles\/_captions.scss",
+		"outputAbbreviatedPath": "\/css\/_captions.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -765,15 +658,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/siteTextStyles\/_headers.scss": {
+	"\/siteTextStyles\/_headers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/siteTextStyles\/_headers.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_headers.css",
+		"inputAbbreviatedPath": "\/siteTextStyles\/_headers.scss",
+		"outputAbbreviatedPath": "\/css\/_headers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -781,15 +674,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/sliderStyles\/_loanDetails-M.scss": {
+	"\/sliderStyles\/_loanDetails-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/sliderStyles\/_loanDetails-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_loanDetails-M.css",
+		"inputAbbreviatedPath": "\/sliderStyles\/_loanDetails-M.scss",
+		"outputAbbreviatedPath": "\/css\/_loanDetails-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -797,15 +690,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/sliderStyles\/_loanDetails.scss": {
+	"\/sliderStyles\/_loanDetails.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/sliderStyles\/_loanDetails.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_loanDetails.css",
+		"inputAbbreviatedPath": "\/sliderStyles\/_loanDetails.scss",
+		"outputAbbreviatedPath": "\/css\/_loanDetails.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -813,15 +706,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/sliderStyles\/_loanSlider-M.scss": {
+	"\/sliderStyles\/_loanSlider-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/sliderStyles\/_loanSlider-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_loanSlider-M.css",
+		"inputAbbreviatedPath": "\/sliderStyles\/_loanSlider-M.scss",
+		"outputAbbreviatedPath": "\/css\/_loanSlider-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -829,15 +722,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/sliderStyles\/_loanSlider.scss": {
+	"\/sliderStyles\/_loanSlider.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/sliderStyles\/_loanSlider.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_loanSlider.css",
+		"inputAbbreviatedPath": "\/sliderStyles\/_loanSlider.scss",
+		"outputAbbreviatedPath": "\/css\/_loanSlider.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -845,15 +738,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/sliderStyles\/_loanTotal-M.scss": {
+	"\/sliderStyles\/_loanTotal-M.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/sliderStyles\/_loanTotal-M.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_loanTotal-M.css",
+		"inputAbbreviatedPath": "\/sliderStyles\/_loanTotal-M.scss",
+		"outputAbbreviatedPath": "\/css\/_loanTotal-M.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -861,30 +754,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/sliderStyles\/_loanTotal.scss": {
+	"\/sliderStyles\/_loanTotal.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/sliderStyles\/_loanTotal.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/_loanTotal.css",
+		"inputAbbreviatedPath": "\/sliderStyles\/_loanTotal.scss",
+		"outputAbbreviatedPath": "\/css\/_loanTotal.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/sign-in.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sign-in.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -894,9 +778,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "accounts",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "compass_yellow"
+	"displayValue": "scss",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets_darkGray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,

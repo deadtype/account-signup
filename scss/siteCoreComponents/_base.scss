@@ -27,12 +27,11 @@ html {
 }
 
 body, input, textarea, select, button, .button {
-    font-family: $base-font-family;
-    line-height: $base-line-height;
+    font-family: $SYSTEM_FONT;
+    line-height: $SYSTEM_LINE_HEIGHT;
     font-weight: 400;
-    color: $base-font-color;
-    font-size: $base-font-size;
-
+    color: $SYSTEM_FONT_COLOR;
+    font-size: $SYSTEM_FONT_SIZE;
 }
 
 
