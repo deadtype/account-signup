@@ -1,5 +1,5 @@
 .loanTotal {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 }
 
 .infoLabel {
@@ -27,4 +27,26 @@
 
 .loadDetailsSection.termOfLoan {
 	margin-right: 0;
+}
+
+.valueProp {
+	margin-bottom: 2em;
+	margin-top: 3em;
+}
+
+.propHeader {
+	font-weight: 800;
+	margin-bottom: 1em;
+}
+
+.propCopy {
+	font-size: .8em;
+}
+
+.proposition + .proposition {
+	margin-top: 2em;
+}
+
+.LoanAccepted .loanDetails {
+	margin-bottom: 0;
 }

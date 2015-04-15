@@ -1,3 +1,4 @@
+
 input, .input {
 	font-family: $SYSTEM_FONT;
 	border: none;
@@ -28,13 +29,13 @@ input:active, input:focus, select:focus, textarea:focus {
 }
 
 input::-webkit-input-placeholder {
-color: green;
+color: hsl(0,0%,85%);
 }
 
 input::-moz-placeholder {
-    color: rgb(230,230,230);
+    color: hsl(0,0%,85%);
 }
 
 input:-ms-input-placeholder {
-    color: rgb(230,230,230);
+    color: hsl(0,0%,85%);
 }

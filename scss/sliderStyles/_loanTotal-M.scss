@@ -1,7 +1,10 @@
 @media only screen and (min-width: 600px) {
 
 
-
+.loanInfo {
+	font-size: 1.1em;
+	
+}
 	.loanTotalWrapper {
 		width: 20%;
 		float: left;
@@ -52,5 +55,9 @@
 	}
 
 	.large_screen {display: block;}
+	.large_screen_inline {display: inline-block;}
+
 	.small_screen {display: none;}
-}
+	
+	
+	}

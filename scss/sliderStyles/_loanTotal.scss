@@ -1,3 +1,8 @@
+.loanInfo {
+	font-size: 1.25em;
+	
+}
+
 .loanTotalWrapper {
 	text-align: center;
 	position: relative;
@@ -20,7 +25,7 @@
 
 
 	.loanTotalContainer {
-		width: 12em;
+		width: 10em;
 		display: inline-block;
 		height: inherit;
 		vertical-align: top; 
@@ -66,7 +71,7 @@
 	.increaseContainer, .decreaseContainer {
 		display: inline-block;
 		height: inherit;
-		width: 3.5em;
+		width: 2.5em;
 		position: relative;
 	}
 
@@ -95,4 +100,5 @@
 	}
 
 	.large_screen {display: none;}
+	.large_screen_inline {display: none;}
 

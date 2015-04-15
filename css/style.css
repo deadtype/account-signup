@@ -593,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .loanTotal {
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .infoLabel {
@@ -621,6 +621,28 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 0;
 }
 
+.valueProp {
+  margin-bottom: 2em;
+  margin-top: 3em;
+}
+
+.propHeader {
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+.propCopy {
+  font-size: .8em;
+}
+
+.proposition + .proposition {
+  margin-top: 2em;
+}
+
+.LoanAccepted .loanDetails {
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 600px) {
   .loanTotal .loanInfo {
     font-size: 4.5em;
@@ -634,9 +656,35 @@ h1, h2, h3, h4, h5, h6 {
   .loanDetails {
     margin-bottom: 4em;
   }
+
+  .valueProp {
+    margin-bottom: 6em;
+    margin-top: 3em;
+  }
+
+  .proposition {
+    width: 33.3%;
+    float: left;
+  }
+
+  .proposition + .proposition {
+    margin-top: 0;
+    padding-left: 2em;
+  }
 }
 .hide {
   display: none;
+}
+
+.loanOfferWidget, .valueProp {
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  /* No support for these yet, use at own risk */
+  user-select: none;
 }
 
 .loanDetailsWrapper {
@@ -734,12 +782,12 @@ h1, h2, h3, h4, h5, h6 {
 .inputRangeIndicator {
   height: 2px;
   background: #bfbfbf;
-  margin-bottom: .25em;
+  margin-bottom: .45em;
 }
 
 .amount {
-  font-size: .75em;
-  color: lightgray;
+  font-size: .85em;
+  color: dimgray;
   z-index: -10;
 }
 
@@ -805,6 +853,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 3px;
 }
 
+.loanInfo {
+  font-size: 1.25em;
+}
+
 .loanTotalWrapper {
   text-align: center;
   position: relative;
@@ -825,7 +877,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .loanTotalContainer {
-  width: 12em;
+  width: 10em;
   display: inline-block;
   height: inherit;
   vertical-align: top;
@@ -868,7 +920,7 @@ h1, h2, h3, h4, h5, h6 {
 .increaseContainer, .decreaseContainer {
   display: inline-block;
   height: inherit;
-  width: 3.5em;
+  width: 2.5em;
   position: relative;
 }
 
@@ -891,6 +943,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .large_screen {
+  display: none;
+}
+
+.large_screen_inline {
   display: none;
 }
 
@@ -1070,6 +1126,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media only screen and (min-width: 600px) {
+  .loanInfo {
+    font-size: 1.1em;
+  }
+
   .loanTotalWrapper {
     width: 20%;
     float: left;
@@ -1120,8 +1180,22 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
   }
 
+  .large_screen_inline {
+    display: inline-block;
+  }
+
   .small_screen {
     display: none;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .rangeSelector {
+    bottom: -.65em;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .rangeSelector {
+    bottom: -.8em;
   }
 }
 input, .input {
@@ -1154,15 +1228,15 @@ input:active, input:focus, select:focus, textarea:focus {
 }
 
 input::-webkit-input-placeholder {
-  color: green;
+  color: #d9d9d9;
 }
 
 input::-moz-placeholder {
-  color: #e6e6e6;
+  color: #d9d9d9;
 }
 
 input:-ms-input-placeholder {
-  color: #e6e6e6;
+  color: #d9d9d9;
 }
 
 .formSectionHeader {
@@ -1242,7 +1316,7 @@ input:-ms-input-placeholder {
 }
 
 .inputContainer select, .MultiInputSeparator, .phoneBracket {
-  color: #b4b4b4;
+  color: #a6a6a6;
 }
 
 .helpInfo {
@@ -1268,7 +1342,7 @@ input:-ms-input-placeholder {
   font-weight: 800;
   padding-left: .8rem;
   position: absolute;
-  color: #b4b4b4;
+  color: #a6a6a6;
   position: absolute;
   top: 50%;
   bottom: auto;
@@ -1418,6 +1492,12 @@ select::-ms-expand {
   margin: 0 26px 16px 0;
   float: left;
   width: 100%;
+}
+
+.PhoneConfirmationChoice li {
+  float: left;
+  margin: 0;
+  width: 50%;
 }
 
 input[type=radio],
@@ -2031,7 +2111,6 @@ select, .focus .prependix::before, .MultiInputSeparator, .phoneBracket {
   }
 }
 button, .button, .pageControls.sign-in input {
-  background: white;
   border-radius: none;
   line-height: 1.4;
   position: relative;
@@ -2149,6 +2228,7 @@ button + button {
   color: #D8D8D8;
   font-size: .9em;
   background: white;
+  cursor: pointer;
 }
 
 .tabBorder {
@@ -2250,11 +2330,11 @@ button + button {
   }
 
   .contentSection + .contentSection {
-    margin-top: 5em;
+    margin-top: 6em;
   }
 
   .SectionInner + .SectionInner {
-    margin-top: 4.5em;
+    margin-top: 3.5em;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -2275,11 +2355,11 @@ button + button {
   }
 
   .contentSection + .contentSection {
-    margin-top: 7em;
+    margin-top: 8em;
   }
 
   .SectionInner + .SectionInner {
-    margin-top: 5.5em;
+    margin-top: 4em;
   }
 }
 @media only screen and (min-width: 1700px) {

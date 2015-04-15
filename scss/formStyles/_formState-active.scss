@@ -22,15 +22,15 @@ select, .focus .prependix::before,  .MultiInputSeparator, .phoneBracket {
 }
 
 .focus input::-webkit-input-placeholder {
-color:  #e6e6e6;
+color:  hsl(0,0%,90%);
 }
 
 .focus input::-moz-placeholder {
-    color:  #e6e6e6;
+    color:  hsl(0,0%,90%);
 }
 
 .focus input:-ms-input-placeholder {
-    color:  #e6e6e6;
+    color:  hsl(0,0%,90%);
 }
 
 

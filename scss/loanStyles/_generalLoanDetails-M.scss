@@ -13,4 +13,20 @@
 	margin-bottom: 4em;
 }
 
+
+.valueProp {
+	margin-bottom: 6em;
+	margin-top: 3em;
+}
+.proposition {
+	width: 33.3%;
+	float: left;
+	
+}
+.proposition + .proposition {
+	margin-top: 0;
+	padding-left: 2em;
+}
+
+
 }
