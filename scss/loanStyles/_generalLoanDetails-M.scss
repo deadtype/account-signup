@@ -1,18 +1,22 @@
 @media only screen and (min-width: 600px) {
 
-.loanTotal .loanInfo {
-	font-size: 4.5em;
+.loanInformationTotal .loanInfo {
+	font-size: 5.5em;
 	font-weight: 800;
 }
 
-.loanDetails .loadDetailsSection {
-	width: 10em; 
-}
-
-.loanDetails {
+.loanInformationTotal {
 	margin-bottom: 4em;
 }
 
+
+.loanInformationDetails .loadDetailsSection {
+	width: 10em; 
+}
+
+.loanInformationDetails {
+	font-size: .9em;
+}
 
 .valueProp {
 	margin-bottom: 6em;

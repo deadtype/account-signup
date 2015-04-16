@@ -16,11 +16,11 @@
 		padding:6em 0;
 	}
 
-	.contentSection + .contentSection {
+.contentSection + .contentSection, .SectionInner + .contentSection, .genericSection + .contentSection {
 		margin-top: 8em;
 	}
 
-	.SectionInner + .SectionInner {
+.SectionInner + .SectionInner, .contentSection + .SectionInner, .genericSection + .SectionInner {
 	margin-top: 4em;
 	}
 

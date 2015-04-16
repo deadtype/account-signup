@@ -1,5 +1,5 @@
-.loanTotal {
-	margin-bottom: 4em;
+.loanInformationTotal {
+	margin-bottom: 3em;
 }
 
 .infoLabel {
@@ -11,18 +11,26 @@
 }
 
 
-
-.loanTotal .loanInfo {
-	font-size: 3.5em;
-	font-weight: 700;
-	margin-top: .1em;
+.loanInformationDetails .loanInfo {
+	font-weight: 800;
 }
 
-.loanDetails .loadDetailsSection {
-	width: 6em; 
+
+.loanInformationTotal .loanInfo {
+	font-size: 4em;
+	font-weight: 700;
+	margin-top: .1em;
+	line-height: 1
+}
+
+.loanInformationDetails .loadDetailsSection {
+	width: 7.5em; 
 	float: left;
 	text-align: left;
 	margin-right: 1.5em;
+}
+.loanInformationDetails {
+	font-size: .8em;
 }
 
 .loadDetailsSection.termOfLoan {
@@ -45,8 +53,4 @@
 
 .proposition + .proposition {
 	margin-top: 2em;
-}
-
-.LoanAccepted .loanDetails {
-	margin-bottom: 0;
 }

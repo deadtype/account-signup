@@ -11,10 +11,10 @@
 	margin-top: -3px;
 }
 
-.contentSection + .contentSection {
-	margin-top: 3em;
+.contentSection + .contentSection, .SectionInner + .contentSection, .genericSection + .contentSection {
+	margin-top: 6em;
 }
 
-.SectionInner + .SectionInner {
+.SectionInner + .SectionInner, .contentSection + .SectionInner, .genericSection + .SectionInner {
 	margin-top: 3em;
 }
