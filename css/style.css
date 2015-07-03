@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *::after, *::before {
   box-sizing: inherit;
 }
 
@@ -517,6 +517,7 @@ html {
   -moz-font-feature-settings: "liga";
   /* EDIT: new syntax for FF 15+ */
   -ms-font-feature-settings: "liga";
+  -o-font-feature-settings: "liga";
   -webkit-font-feature-settings: "liga";
   font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
@@ -565,6 +566,50 @@ a:hover {
   border-bottom: 2px solid lightgray;
 }
 
+.infoMessage {
+  margin-top: 2em;
+  padding: 2em 2em 2em 1.5em;
+  background: HSLA(150, 53%, 60%, 1);
+  font-size: 1.1em;
+  color: white;
+  font-weight: 600;
+  border: 2px solid HSLA(150, 53%, 60%, 0.7);
+  border-radius: 2px;
+}
+.infoMessage.hide {
+  display: none;
+}
+.infoMessage a {
+  color: white;
+}
+@media only screen and (min-width: 500px) {
+  .infoMessage .infoMessageInner {
+    padding-left: 5em;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .infoMessage .infoMessageInner {
+    width: 80%;
+    padding-left: 5em;
+  }
+}
+.infoMessage .image {
+  width: 3em;
+  margin-bottom: 2em;
+}
+@media only screen and (min-width: 500px) {
+  .infoMessage .image {
+    position: absolute;
+  }
+}
+.infoMessage .title {
+  font-size: 1.6em;
+  padding-top: .3em;
+  margin-bottom: 1.75em;
+  line-height: 1;
+  font-weight: 800;
+}
+
 /**
  * Clearfix
  */
@@ -593,7 +638,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .loanInformationTotal {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 .infoLabel {
@@ -604,17 +649,26 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+.loanInformationDetails .loanInfo {
+  font-weight: 800;
+}
+
 .loanInformationTotal .loanInfo {
-  font-size: 3.5em;
+  font-size: 4em;
   font-weight: 700;
   margin-top: .1em;
+  line-height: 1;
 }
 
 .loanInformationDetails .loadDetailsSection {
-  width: 6em;
+  width: 7.5em;
   float: left;
   text-align: left;
   margin-right: 1.5em;
+}
+
+.loanInformationDetails {
+  font-size: .8em;
 }
 
 .loadDetailsSection.termOfLoan {
@@ -639,22 +693,22 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 2em;
 }
 
-.LoanAccepted .loanInformationDetails {
-  margin-bottom: 0;
-}
-
 @media only screen and (min-width: 600px) {
-  .loanTotal .loanInfo {
-    font-size: 4.5em;
+  .loanInformationTotal .loanInfo {
+    font-size: 5.5em;
     font-weight: 800;
   }
 
-  .loanDetails .loadDetailsSection {
+  .loanInformationTotal {
+    margin-bottom: 4em;
+  }
+
+  .loanInformationDetails .loadDetailsSection {
     width: 10em;
   }
 
-  .loanDetails {
-    margin-bottom: 4em;
+  .loanInformationDetails {
+    font-size: .9em;
   }
 
   .valueProp {
@@ -684,6 +738,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-user-select: none;
   /* IE 10+ */
   /* No support for these yet, use at own risk */
+  -o-user-select: none;
   user-select: none;
 }
 
@@ -1448,7 +1503,7 @@ input:-ms-input-placeholder {
   display: block;
   width: 19px;
   height: 9px;
-  background: url("../img/select-arrow-black.svg") no-repeat center center;
+  background: url("../images/select-arrow-black.svg") no-repeat center center;
   pointer-events: none;
   background-size: cover;
   -webkit-transition: opacity 0.3s;
@@ -1492,12 +1547,6 @@ select::-ms-expand {
   margin: 0 26px 16px 0;
   float: left;
   width: 100%;
-}
-
-.PhoneConfirmationChoice li {
-  float: left;
-  margin: 0;
-  width: 50%;
 }
 
 input[type=radio],
@@ -1563,12 +1612,12 @@ input[type="checkbox"] + label::after {
 
 input[type="radio"] + label::after {
   /* custom image for radio button */
-  background-image: url("../img/cd-icon-radio.svg");
+  background-image: url("../images/cd-icon-radio.svg");
 }
 
 input[type="checkbox"] + label::after {
   /* custom image for checkbox */
-  background-image: url("../img/cd-icon-check.svg");
+  background-image: url("../images/cd-icon-check.svg");
 }
 
 input[type="radio"]:focus + label::before,
@@ -1711,11 +1760,10 @@ select, .focus .prependix::before, .MultiInputSeparator, .phoneBracket {
   color: #555;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border-bottom: 2px solid transparent;
 }
 
 .messageSummary a:hover {
-  border-bottom: 2px solid lightgray;
+  color: red;
 }
 
 .messageSummary ul {
@@ -1817,8 +1865,9 @@ select, .focus .prependix::before, .MultiInputSeparator, .phoneBracket {
 
 @media only screen and (min-width: 600px) {
   .labelContainer label {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1em;
+    color: #999;
   }
 
   .formSectionHeader .formSectionInner {
@@ -2185,6 +2234,14 @@ button + button {
   height: 5em;
 }
 
+.pageControls {
+  margin-top: 1.5em;
+}
+
+.pageControls.pastRadioCheckbox {
+  margin-top: 2.5em;
+}
+
 .pageControls.sign-in .button {
   width: 100%;
 }
@@ -2322,11 +2379,11 @@ button + button {
   margin-top: -3px;
 }
 
-.contentSection + .contentSection {
-  margin-top: 3em;
+.contentSection + .contentSection, .SectionInner + .contentSection, .genericSection + .contentSection {
+  margin-top: 6em;
 }
 
-.SectionInner + .SectionInner {
+.SectionInner + .SectionInner, .contentSection + .SectionInner, .genericSection + .SectionInner {
   margin-top: 3em;
 }
 
@@ -2347,11 +2404,11 @@ button + button {
     padding: 5em 0;
   }
 
-  .contentSection + .contentSection {
-    margin-top: 6em;
+  .contentSection + .contentSection, .SectionInner + .contentSection, .genericSection + .contentSection {
+    margin-top: 7em;
   }
 
-  .SectionInner + .SectionInner {
+  .SectionInner + .SectionInner, .contentSection + .SectionInner, .genericSection + .SectionInner {
     margin-top: 3.5em;
   }
 }
@@ -2372,11 +2429,11 @@ button + button {
     padding: 6em 0;
   }
 
-  .contentSection + .contentSection {
+  .contentSection + .contentSection, .SectionInner + .contentSection, .genericSection + .contentSection {
     margin-top: 8em;
   }
 
-  .SectionInner + .SectionInner {
+  .SectionInner + .SectionInner, .contentSection + .SectionInner, .genericSection + .SectionInner {
     margin-top: 4em;
   }
 }

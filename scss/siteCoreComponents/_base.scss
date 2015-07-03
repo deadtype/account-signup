@@ -67,6 +67,60 @@ a:hover {
 
 
 
+.infoMessage {
+  margin-top: 2em;
+  padding: 2em 2em 2em 1.5em;
+  background: HSLA(150, 53%, 60%, 1);
+  font-size: 1.1em;
+  color: white;
+  font-weight: 600;
+  border: 2px solid HSLA(150, 53%, 60%, .7);;
+  border-radius: 2px;
+
+  &.hide {
+    display: none;
+  }
+
+  a {
+    color: white;
+  }
+
+  .infoMessageInner {
+    @include MQ(S) {
+
+      padding-left: 5em;
+    }
+
+        @include MQ(S-M) {
+
+      width: 80%;
+      padding-left: 5em;
+    }
+  }
+
+
+  .image {
+
+    @include MQ(S) {
+      position: absolute;
+
+    }
+
+    width: 3em;
+    margin-bottom: 2em;
+  }
+
+  .title {
+    font-size: 1.6em;
+    padding-top: .3em;
+    margin-bottom: 1.75em;
+    line-height: 1;
+    font-weight: 800;
+  }
+
+}
+
+
 /**
  * Clearfix
  */
